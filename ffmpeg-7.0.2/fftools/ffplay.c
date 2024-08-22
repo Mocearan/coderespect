@@ -3751,8 +3751,10 @@ int main(int argc, char **argv)
     int flags, ret;
     VideoState *is;
 
+    //* 初始化动态库
     init_dynload();
 
+    //* 
     av_log_set_flags(AV_LOG_SKIP_REPEATED);
     parse_loglevel(argc, argv, options);
 

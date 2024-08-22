@@ -366,7 +366,7 @@ public:
      * 发送Buffer对象，Socket对象发送数据的统一出口
      * socket对象发送数据的统一出口
      */
-    virtual ssize_t send(Buffer::Ptr buf, struct sockaddr *addr = nullptr, socklen_t addr_len = 0, bool try_flush = true);q
+    virtual ssize_t send(Buffer::Ptr buf, struct sockaddr *addr = nullptr, socklen_t addr_len = 0, bool try_flush = true);
 
     /**
      * 关闭socket且触发onErr回调，onErr回调将在poller线程中进行
