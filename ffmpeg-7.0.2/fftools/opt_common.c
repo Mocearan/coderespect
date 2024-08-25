@@ -234,15 +234,21 @@ static void print_buildconf(int flags, int level)
     }
 }
 
+//* 显示程序的信息横幅（banner），如版本号和版权信息。
 void show_banner(int argc, char **argv, const OptionDef *options)
 {
+    //* 查找命令行参数中是否包含 version 选项，并获取其在 argv 数组中的索引。如果未找到，则 idx 为 0。
     int idx = locate_option(argc, argv, options, "version");
-    if (hide_banner || idx)
+    //* 隐藏横幅或找到version信息则直接返回
+    if ( hide_banner || idx )
         return;
 
-    print_program_info (INDENT|SHOW_COPYRIGHT, AV_LOG_INFO);
-    print_all_libs_info(INDENT|SHOW_CONFIG,  AV_LOG_INFO);
-    print_all_libs_info(INDENT|SHOW_VERSION, AV_LOG_INFO);
+    //* 打印程序的版本信息，带缩进
+    print_program_info(INDENT | SHOW_COPYRIGHT, AV_LOG_INFO);
+    //* 打印库信息，带缩进
+    print_all_libs_info(INDENT | SHOW_CONFIG, AV_LOG_INFO);
+    //* 打印库版本信息，带缩进
+    print_all_libs_info(INDENT | SHOW_VERSION, AV_LOG_INFO);
 }
 
 int show_version(void *optctx, const char *opt, const char *arg)

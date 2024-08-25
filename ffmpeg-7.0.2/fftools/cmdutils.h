@@ -124,9 +124,9 @@ typedef struct SpecifierOptList {
 } SpecifierOptList;
 
 typedef struct OptionDef {
-    const char *name;
-    enum OptionType type;
-    int flags;
+    const char *name;       //* 选项的名称。例如“i”，“f”，“codec”等等。
+    enum OptionType type;   //* 选项类型
+    int flags;              //* 选项的标志
 
 /* The OPT_TYPE_FUNC option takes an argument.
  * Must not be used with other option types, as for those it holds:
@@ -178,21 +178,23 @@ typedef struct OptionDef {
 /* ffmpeg-only - OPT_PERFILE may apply to standalone decoders */
 #define OPT_DECODER     (1 << 15)
 
-     union {
+    //* // Union for storing different types of data 
+    union
+    {
         void *dst_ptr;
-        int (*func_arg)(void *, const char *, const char *);
+        int (*func_arg)(void *, const char *, const char *); //* 操作函数 
         size_t off;
     } u;
-    const char *help;
-    const char *argname;
+    const char *help;   //* 选项的帮助说明  
+    const char *argname; //* 参数名称  
 
     union {
         /* Name of the canonical form of this option.
          * Is valid when OPT_HAS_CANON is set. */
-        const char *name_canon;
+        const char *name_canon; //* 标准选项名称
         /* A NULL-terminated list of alternate forms of this option.
          * Is valid when OPT_HAS_ALT is set. */
-        const char * const *names_alt;
+        const char * const *names_alt; //* 替代选项名称的列表
     } u1;
 } OptionDef;
 

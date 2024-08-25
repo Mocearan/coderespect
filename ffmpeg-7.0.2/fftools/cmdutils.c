@@ -405,32 +405,49 @@ int parse_option(void *optctx, const char *opt, const char *arg,
     return opt_has_arg(po);
 }
 
+//* 解析命令行参数，包括识别选项和参数，并将它们传递给适当的处理函数。
+//* optctx：一个指向上下文的指针，用于在解析选项时保存状态或数据。
+//* argc：命令行参数的数量。
+//* argv：命令行参数的字符串数组。
+//* options：指向定义选项的数组的指针。
+//* parse_arg_function：一个指向函数的指针，该函数用于处理未被识别的非选项参数。
 int parse_options(void *optctx, int argc, char **argv, const OptionDef *options,
                   int (*parse_arg_function)(void *, const char*))
 {
-    const char *opt;
+    const char *opt; //* 指向当前选项的指针。
+    //* optindex：当前分析的参数索引。
+    //* handleoptions：标志，指示是否仍在处理选项。
     int optindex, handleoptions = 1, ret;
 
     /* perform system-dependent conversions for arguments list */
+    //* 参数列表转换
     prepare_app_arguments(&argc, &argv);
 
     /* parse options */
+    //* 从 argv 中的第二个参数开始（argv[0] 通常是程序名称），循环遍历所有参数。
     optindex = 1;
     while (optindex < argc) {
         opt = argv[optindex++];
 
-        if (handleoptions && opt[0] == '-' && opt[1] != '\0') {
-            if (opt[1] == '-' && opt[2] == '\0') {
+        //* 如果 handleoptions 为真且当前参数以 - 开头，则表示这是一个选项。
+        if ( handleoptions && opt[0] == '-' && opt[1] != '\0' ) {
+            //* 如果参数是 --，则设置 handleoptions 为假，并继续下一个循环，意味着不再处理当前选项。
+            if ( opt[1] == '-' && opt[2] == '\0' ) {
                 handleoptions = 0;
                 continue;
             }
+            //* 是选项，则opt 指向第二个字符以便后续处理。
             opt++;
 
-            if ((ret = parse_option(optctx, opt, argv[optindex], options)) < 0)
+            //* 解析当前选项（opt），传递上下文、当前选项及后续参数（argv[optindex]）。
+            if ( (ret = parse_option(optctx, opt, argv[optindex], options)) < 0 )
                 return ret;
+            //* 成功解析后，更新 optindex，以便跳过解析过的参数。
             optindex += ret;
         } else {
-            if (parse_arg_function) {
+            //* 如果当前参数不是选项，则检查是否提供了 parse_arg_function
+            if ( parse_arg_function ) {
+                //* 如果有，调用该函数解析非选项参数，传递上下文和当前参数（opt）。
                 ret = parse_arg_function(optctx, opt);
                 if (ret < 0)
                     return ret;
@@ -540,33 +557,49 @@ static void check_options(const OptionDef *po)
     }
 }
 
+//* 解析命令行参数中的日志级别设置和报告配置。
 void parse_loglevel(int argc, char **argv, const OptionDef *options)
 {
+    //* 查找命令行参数中是否有 loglevel 选项，并返回它在 argv 数组中的索引。如果没有找到，idx 将为 0。
     int idx = locate_option(argc, argv, options, "loglevel");
     char *env;
 
+    //* 验证传入的选项是否合理和有效。
     check_options(options);
 
-    if (!idx)
+    
+    //* 如果没有 loglevel 选项，尝试查找 v 选项（通常用于设置详细输出）
+    if ( !idx )
         idx = locate_option(argc, argv, options, "v");
-    if (idx && argv[idx + 1])
+    //* 如果找到了 loglevel 或 v 选项，并且后续有参数，设置日志级别。
+    if ( idx && argv[idx + 1] )
         opt_loglevel(NULL, "loglevel", argv[idx + 1]);
+
     idx = locate_option(argc, argv, options, "report");
     env = getenv_utf8("FFREPORT");
+    //* 如果找到了 report 或环境变量 FFREPORT 存在，则初始化报告文件
     if (env || idx) {
         FILE *report_file = NULL;
         init_report(env, &report_file);
-        if (report_file) {
+        //* 写入命令行信息到报告文件
+        if ( report_file ) {
             int i;
+            //* 写入 "Command line:" 头部。
             fprintf(report_file, "Command line:\n");
-            for (i = 0; i < argc; i++) {
+            //* 遍历所有命令行参数，并将每个参数写入报告文件，参数之间以空格分隔，行尾换行。
+            for ( i = 0; i < argc; i++ ) {
                 dump_argument(report_file, argv[i]);
                 fputc(i < argc - 1 ? ' ' : '\n', report_file);
             }
+            //* 刷写落盘
             fflush(report_file);
         }
     }
+
+    //* 释放通过 getenv_utf8 获取的环境变量字符串
     freeenv_utf8(env);
+
+    //* hide_banner 隐藏banner信息
     idx = locate_option(argc, argv, options, "hide_banner");
     if (idx)
         hide_banner = 1;
@@ -1052,23 +1085,38 @@ int filter_codec_opts(const AVDictionary *opts, enum AVCodecID codec_id,
     return 0;
 }
 
+//* 用于在 AVFormatContext 结构中查找流信息并设置编解码器选项。
+//* 该函数的目的是为每个流分配一个代表其编解码选项的字典，并通过 dst 返回。调用该函数后可以获得与每个流对应的编解码器选项，以便进一步配置或使用。
+//* AVFormatContext *s: 指向一个 FFmpeg 格式上下文的指针，表示包含多个流信息的媒体文件的上下文。
+//* AVDictionary *codec_opts: 一个指向 AVDictionary 的指针，包含全局编解码器的选项。
+//* [out] AVDictionary ***dst: 一个指向字典指针的指针，用于返回设置后的编解码器选项。
 int setup_find_stream_info_opts(AVFormatContext *s,
                                 AVDictionary *codec_opts,
                                 AVDictionary ***dst)
 {
     int ret;
+    //* 指向 AVDictionary 指针的数组，将用于存储每个流的编码选项。
     AVDictionary **opts;
 
+    //* 将 *dst 指针置为 NULL，用于确保在没有流的情况下返回一个有效的指针。
     *dst = NULL;
 
-    if (!s->nb_streams)
+    //* 没有需要处理的流。
+    if ( !s->nb_streams )
         return 0;
 
+    //* 大小为s->nb_streams的AVDictionary*数组 
     opts = av_calloc(s->nb_streams, sizeof(*opts));
     if (!opts)
         return AVERROR(ENOMEM);
 
-    for (int i = 0; i < s->nb_streams; i++) {
+    for ( int i = 0; i < s->nb_streams; i++ ) {
+        //* 从全局编解码参数中过滤出每个流所需的编解码选项并设置到对应的字典中
+        //* codec_opts：全局编解码选项。
+        //* s->streams[i]->codecpar->codec_id：流的编解码器 ID。
+        //* s：格式上下文。
+        //* s->streams[i]：当前处理的流。
+        //* &opts[i]：指向当前流的选项指针地址。
         ret = filter_codec_opts(codec_opts, s->streams[i]->codecpar->codec_id,
                                 s, s->streams[i], NULL, &opts[i]);
         if (ret < 0)
