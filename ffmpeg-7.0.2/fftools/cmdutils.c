@@ -77,6 +77,7 @@ void log_callback_help(void *ptr, int level, const char *fmt, va_list vl)
 
 void init_dynload(void)
 {
+    // 在 Windows 平台上提高动态库加载的安全性，防止恶意 DLL 攻击。通过调用 SetDllDirectory("")，程序会从 DLL 搜索路径中移除当前工作目录，从而降低安全风险。
 #if HAVE_SETDLLDIRECTORY && defined(_WIN32)
     /* Calling SetDllDirectory with the empty string (but not NULL) removes the
      * current working directory from the DLL search path as a security pre-caution. */
@@ -1012,29 +1013,36 @@ FILE *get_preset_file(char *filename, size_t filename_size,
     return f;
 }
 
-int check_stream_specifier(AVFormatContext *s, AVStream *st, const char *spec)
+//* 检查给定的流（AVStream）是否与指定的流描述符（spec）匹配。
+int check_stream_specifier(AVFormatContext* s, AVStream* st, const char* spec)
 {
-    int ret = avformat_match_stream_specifier(s, st, spec);
+    int ret = avformat_match_stream_specifier(s, st, spec); //* 检查流是否与描述符匹配。
     if (ret < 0)
         av_log(s, AV_LOG_ERROR, "Invalid stream specifier: %s.\n", spec);
     return ret;
 }
 
+//* 从全局编解码参数中过滤出每个流所需的编解码选项并设置到对应的字典中
+//* codec_opts：全局编解码选项。
+//* s->streams[i]->codecpar->codec_id：流的编解码器 ID。
+//* s：格式上下文。
+//* s->streams[i]：当前处理的流。
+//* &opts[i]：指向当前流的选项指针地址。
 int filter_codec_opts(const AVDictionary *opts, enum AVCodecID codec_id,
                       AVFormatContext *s, AVStream *st, const AVCodec *codec,
                       AVDictionary **dst)
 {
-    AVDictionary    *ret = NULL;
-    const AVDictionaryEntry *t = NULL;
-    int            flags = s->oformat ? AV_OPT_FLAG_ENCODING_PARAM
+    AVDictionary    *ret = NULL;    //* 存储筛选后的选项字典
+    const AVDictionaryEntry *t = NULL;  //* 用于遍历输入的选项字典
+    int            flags = s->oformat ? AV_OPT_FLAG_ENCODING_PARAM  //* 根据 s->oformat 设置编码或解码标志
                                       : AV_OPT_FLAG_DECODING_PARAM;
-    char          prefix = 0;
-    const AVClass    *cc = avcodec_get_class();
+    char          prefix = 0;   //* 根据流的类型设置前缀（v、a、s）。
+    const AVClass    *cc = avcodec_get_class(); //* 获取 FFmpeg 中编解码器的全局选项类（AVClass）, AVClass 包含了编解码器的全局选项信息（如线程数、日志级别等）
 
-    if (!codec)
+    if (!codec) //* 如果 codec 为 NULL，则根据 codec_id 查找默认的编解码器。
         codec            = s->oformat ? avcodec_find_encoder(codec_id)
                                       : avcodec_find_decoder(codec_id);
-
+    //* 根据流的类型设置前缀和标志
     switch (st->codecpar->codec_type) {
     case AVMEDIA_TYPE_VIDEO:
         prefix  = 'v';
@@ -1049,35 +1057,35 @@ int filter_codec_opts(const AVDictionary *opts, enum AVCodecID codec_id,
         flags  |= AV_OPT_FLAG_SUBTITLE_PARAM;
         break;
     }
-
+    //* 遍历输入的选项字典 opts
     while (t = av_dict_iterate(opts, t)) {
         const AVClass *priv_class;
-        char *p = strchr(t->key, ':');
+        char *p = strchr(t->key, ':');  //* p：查找选项名称中的流描述符（如 v:0）
 
         /* check stream specification in opt name */
-        if (p) {
+        if (p) { //* 如果选项名称中包含流描述符，则调用 check_stream_specifier 检查流是否匹配
             int err = check_stream_specifier(s, st, p + 1);
-            if (err < 0) {
+            if (err < 0) { //* 产生错误，释放ret
                 av_dict_free(&ret);
                 return err;
-            } else if (!err)
+            } else if (!err) //* 如果流不匹配，则跳过该选项。
                 continue;
 
-            *p = 0;
+            *p = 0; //* 如果流匹配，则删除流描述符（*p = 0）。
         }
-
-        if (av_opt_find(&cc, t->key, NULL, flags, AV_OPT_SEARCH_FAKE_OBJ) ||
-            !codec ||
-            ((priv_class = codec->priv_class) &&
+        //* 检查选项是否是全局选项或编解码器私有选项
+        if (av_opt_find(&cc, t->key, NULL, flags, AV_OPT_SEARCH_FAKE_OBJ) || //* 检查选项 t->key 是否是全局选项（适用于所有编解码器）
+            !codec ||   //* 短路原则，如果 codec 为 NULL，则跳过编解码器私有选项的检查
+            ((priv_class = codec->priv_class) && //* 检查选项 t->key 是否是编解码器的私有选项
              av_opt_find(&priv_class, t->key, NULL, flags,
-                         AV_OPT_SEARCH_FAKE_OBJ)))
+                         AV_OPT_SEARCH_FAKE_OBJ)))  
             av_dict_set(&ret, t->key, t->value, 0);
-        else if (t->key[0] == prefix &&
+        else if (t->key[0] == prefix && //* 如果选项名称中包含流类型前缀，则去掉前缀后再次检查
                  av_opt_find(&cc, t->key + 1, NULL, flags,
                              AV_OPT_SEARCH_FAKE_OBJ))
             av_dict_set(&ret, t->key + 1, t->value, 0);
 
-        if (p)
+        if (p) //* 如果选项名称被修改，则恢复原始名称。
             *p = ':';
     }
 
@@ -1086,20 +1094,18 @@ int filter_codec_opts(const AVDictionary *opts, enum AVCodecID codec_id,
 }
 
 //* 用于在 AVFormatContext 结构中查找流信息并设置编解码器选项。
-//* 该函数的目的是为每个流分配一个代表其编解码选项的字典，并通过 dst 返回。调用该函数后可以获得与每个流对应的编解码器选项，以便进一步配置或使用。
-//* AVFormatContext *s: 指向一个 FFmpeg 格式上下文的指针，表示包含多个流信息的媒体文件的上下文。
-//* AVDictionary *codec_opts: 一个指向 AVDictionary 的指针，包含全局编解码器的选项。
-//* [out] AVDictionary ***dst: 一个指向字典指针的指针，用于返回设置后的编解码器选项。
+//* 为每个流分配一个代表其编解码选项的字典，并通过 dst 返回。调用该函数后可以获得与每个流对应的编解码器选项，以便进一步配置或使用。
+//* AVFormatContext *s: 包含多个流信息的媒体文件的上下文。
+//* AVDictionary *codec_opts: 全局编解码器选项。
+//* [out] AVDictionary ***dst: 指向字典指针的指针，用于返回设置后的编解码器选项。
 int setup_find_stream_info_opts(AVFormatContext *s,
                                 AVDictionary *codec_opts,
                                 AVDictionary ***dst)
 {
     int ret;
-    //* 指向 AVDictionary 指针的数组，将用于存储每个流的编码选项。
-    AVDictionary **opts;
+    AVDictionary **opts;//* 指向 AVDictionary 指针的数组，将用于存储每个流的编码选项。
 
-    //* 将 *dst 指针置为 NULL，用于确保在没有流的情况下返回一个有效的指针。
-    *dst = NULL;
+    *dst = NULL;//* 将 *dst 指针置为 NULL，用于确保在没有流的情况下返回一个有效的指针。
 
     //* 没有需要处理的流。
     if ( !s->nb_streams )
@@ -1111,12 +1117,7 @@ int setup_find_stream_info_opts(AVFormatContext *s,
         return AVERROR(ENOMEM);
 
     for ( int i = 0; i < s->nb_streams; i++ ) {
-        //* 从全局编解码参数中过滤出每个流所需的编解码选项并设置到对应的字典中
-        //* codec_opts：全局编解码选项。
-        //* s->streams[i]->codecpar->codec_id：流的编解码器 ID。
-        //* s：格式上下文。
-        //* s->streams[i]：当前处理的流。
-        //* &opts[i]：指向当前流的选项指针地址。
+        //* 过滤并设置每道流的编码选项
         ret = filter_codec_opts(codec_opts, s->streams[i]->codecpar->codec_id,
                                 s, s->streams[i], NULL, &opts[i]);
         if (ret < 0)
@@ -1159,21 +1160,24 @@ void *allocate_array_elem(void *ptr, size_t elem_size, int *nb_elems)
     return new_elem;
 }
 
-double get_rotation(const int32_t *displaymatrix)
+//* 计算视频旋转角度 theta
+double get_rotation(const int32_t* displaymatrix)
 {
     double theta = 0;
-    if (displaymatrix)
-        theta = -round(av_display_rotation_get(displaymatrix));
+    // 如果 displaymatrix（旋转矩阵）存在，调用 av_display_rotation_get 函数从旋转矩阵中提取旋转角度。
+    if (displaymatrix) // 旋转矩阵通常存储在视频帧或数据包的附加数据中，用于描述视频的旋转信息。
+        theta = -round(av_display_rotation_get(displaymatrix)); // 取反操作是为了修正旋转方向（例如，设备记录的旋转方向可能与实际需要的方向相反）。
 
-    theta -= 360*floor(theta/360 + 0.9/360);
+    theta -= 360*floor(theta/360 + 0.9/360); //  将角度值规范化为 [-360, 360] 范围内的等效角度。
 
-    if (fabs(theta - 90*round(theta/90)) > 2)
-        av_log(NULL, AV_LOG_WARNING, "Odd rotation angle.\n"
+    // 计算当前角度值与最近的 90 度倍数的差值。
+    if (fabs(theta - 90 * round(theta / 90)) > 2) // 角度值与最近的 90 度倍数的差值大于 2 度记录一条警告日志。
+        av_log(NULL, AV_LOG_WARNING, "Odd rotation angle.\n" // 提示用户上传样本文件到指定网站，并联系 FFmpeg 开发邮件列表以帮助改进。
                "If you want to help, upload a sample "
                "of this file to https://streams.videolan.org/upload/ "
                "and contact the ffmpeg-devel mailing list. (ffmpeg-devel@ffmpeg.org)");
 
-    return theta;
+    return theta; // 最终返回计算并规范化后的旋转角度 theta。
 }
 
 /* read file contents into a string */

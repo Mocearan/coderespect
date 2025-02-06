@@ -100,6 +100,7 @@ size_t av_strlcat(char *dst, const char *src, size_t size)
     return len + av_strlcpy(dst + len, src, size - len);
 }
 
+//* av_strlcatf 函数安全地追加字符串，避免缓冲区溢出。
 size_t av_strlcatf(char *dst, size_t size, const char *fmt, ...)
 {
     size_t len = strlen(dst);

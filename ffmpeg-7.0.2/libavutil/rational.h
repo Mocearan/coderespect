@@ -75,7 +75,7 @@ static inline AVRational av_make_q(int num, int den)
 }
 
 /**
- * Compare two rationals.
+ * Compare two rationals.  比较两个有理数。
  *
  * @param a First rational
  * @param b Second rational

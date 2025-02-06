@@ -240,7 +240,7 @@ const char *av_get_media_type_string(enum AVMediaType media_type);
 
 /**
  * @brief Undefined timestamp value
- *
+ * //* 表示未设置
  * Usually reported by demuxer that work on containers that do not provide
  * either pts or dts.
  */

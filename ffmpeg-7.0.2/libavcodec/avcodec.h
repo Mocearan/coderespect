@@ -352,9 +352,11 @@ typedef struct RcOverride{
 #define AV_CODEC_FLAG_CLOSED_GOP      (1U << 31)
 
 /**
- * Allow non spec compliant speedup tricks.
+ * Allow non spec compliant speedup tricks. 
+ *  //* 允许解码器使用不符合标准规范的加速技巧。
+    //* 启用快速模式，可能会牺牲一定的解码质量或精度，以提高解码速度。
  */
-#define AV_CODEC_FLAG2_FAST           (1 <<  0)
+#define AV_CODEC_FLAG2_FAST           (1 <<  0)//* 启用快速模式。
 /**
  * Skip bitstream encoding.
  */
@@ -506,7 +508,7 @@ typedef struct AVCodecContext {
      * - encoding: Set by user.
      * - decoding: Set by user.
      */
-    int flags2;
+    int flags2; //* avctx->flags2 是编解码器上下文的标志位字段，用于控制解码器的行为
 
     /**
      * some codecs need / can use extradata like Huffman tables.

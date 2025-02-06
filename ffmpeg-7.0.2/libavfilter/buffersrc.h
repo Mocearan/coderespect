@@ -177,6 +177,7 @@ int av_buffersrc_write_frame(AVFilterContext *ctx, const AVFrame *frame);
  * This function is equivalent to av_buffersrc_add_frame_flags() without the
  * AV_BUFFERSRC_FLAG_KEEP_REF flag.
  */
+//* 用于将音频帧添加到过滤器图的输入缓冲区中。
 av_warn_unused_result
 int av_buffersrc_add_frame(AVFilterContext *ctx, AVFrame *frame);
 

@@ -81,8 +81,9 @@
 #define AV_DICT_DONT_OVERWRITE 16   /**< Don't overwrite existing entries. */
 #define AV_DICT_APPEND         32   /**< If the entry already exists, append to it.  Note that no
                                          delimiter is added, the strings are simply concatenated. */
-#define AV_DICT_MULTIKEY       64   /**< Allow to store several equal keys in the dictionary */
-/**
+#define AV_DICT_MULTIKEY       64   /**< Allow to store several equal keys in the dictionary */ 
+    //* 允许在字典中为同一个键（flags）设置多个值。
+                                         /**
  * @}
  */
 

@@ -479,6 +479,7 @@ typedef struct AVProbeData {
 #define AVFMT_NOTIMESTAMPS  0x0080 /**< Format does not need / have any timestamps. */
 #define AVFMT_GENERIC_INDEX 0x0100 /**< Use generic index building code. */
 #define AVFMT_TS_DISCONT    0x0200 /**< Format allows timestamp discontinuities. Note, muxers always require valid (monotone) timestamps */
+    //* AVFMT_TS_DISCONT, 表示格式的时间戳不连续。如果设置，则帧的持续时间可能较短且不规律。
 #define AVFMT_VARIABLE_FPS  0x0400 /**< Format allows variable fps. */
 #define AVFMT_NODIMENSIONS  0x0800 /**< Format does not need width/height */
 #define AVFMT_NOSTREAMS     0x1000 /**< Format does not require any streams */
@@ -813,6 +814,7 @@ typedef struct AVStream {
      */
     int disposition;
 
+//* 用于控制是否丢弃流中的数据包。不同的 AVDiscard 值表示不同的丢弃策略：
     enum AVDiscard discard; ///< Selects which packets can be discarded at will and do not need to be demuxed.
 
     /**
@@ -1405,30 +1407,31 @@ typedef struct AVFormatContext {
      * Flags modifying the (de)muxer behaviour. A combination of AVFMT_FLAG_*.
      * Set by the user before avformat_open_input() / avformat_write_header().
      */
-    int flags;
-#define AVFMT_FLAG_GENPTS       0x0001 ///< Generate missing pts even if it requires parsing future frames.
-#define AVFMT_FLAG_IGNIDX       0x0002 ///< Ignore index.
-#define AVFMT_FLAG_NONBLOCK     0x0004 ///< Do not block when reading packets from input.
-#define AVFMT_FLAG_IGNDTS       0x0008 ///< Ignore DTS on frames that contain both DTS & PTS
-#define AVFMT_FLAG_NOFILLIN     0x0010 ///< Do not infer any values from other values, just return what is stored in the container
+    int flags; //* 用于控制**解复用器（demuxer）或复用器（muxer）**的行为。它是一个整型变量，通过组合 AVFMT_FLAG_* 标志来设置。
+#define AVFMT_FLAG_GENPTS       0x0001 ///< Generate missing pts even if it requires parsing future frames. //* 生成缺失的 PTS（显示时间戳）。如果文件中缺少 PTS，FFmpeg 会自动生成。
+#define AVFMT_FLAG_IGNIDX       0x0002 ///< Ignore index. //* 如果文件的索引损坏或不完整，可以忽略索引并尝试继续处理。
+#define AVFMT_FLAG_NONBLOCK     0x0004 ///< Do not block when reading packets from input. //* 在从输入读取数据包时不阻塞。适用于非阻塞 I/O 操作，通常用于实时流处理。
+#define AVFMT_FLAG_IGNDTS       0x0008 ///< Ignore DTS on frames that contain both DTS & PTS //* 忽略同时包含 DTS 和 PTS 的帧中的 DTS（解码时间戳）。适用于需要忽略 DTS 的情况。
+#define AVFMT_FLAG_NOFILLIN     0x0010 ///< Do not infer any values from other values, just return what is stored in the container //* 不从其他值推断任何值，仅返回容器中存储的值。适用于需要原始数据的场景。
 #define AVFMT_FLAG_NOPARSE      0x0020 ///< Do not use AVParsers, you also must set AVFMT_FLAG_NOFILLIN as the fillin code works on frames and no parsing -> no frames. Also seeking to frames can not work if parsing to find frame boundaries has been disabled
-#define AVFMT_FLAG_NOBUFFER     0x0040 ///< Do not buffer frames when possible
-#define AVFMT_FLAG_CUSTOM_IO    0x0080 ///< The caller has supplied a custom AVIOContext, don't avio_close() it.
-#define AVFMT_FLAG_DISCARD_CORRUPT  0x0100 ///< Discard frames marked corrupted
-#define AVFMT_FLAG_FLUSH_PACKETS    0x0200 ///< Flush the AVIOContext every packet.
+    //* 不使用 AVParser，同时必须设置 AVFMT_FLAG_NOFILLIN。适用于不需要解析数据包的情况（如直接传递原始数据）。
+#define AVFMT_FLAG_NOBUFFER     0x0040 ///< Do not buffer frames when possible //* 尽可能不缓冲帧。适用于低延迟场景。
+#define AVFMT_FLAG_CUSTOM_IO    0x0080 ///< The caller has supplied a custom AVIOContext, don't avio_close() it. //* 调用者提供了自定义的 AVIOContext，不要调用 avio_close() 关闭它。适用于自定义 I/O 操作的场景。
+#define AVFMT_FLAG_DISCARD_CORRUPT  0x0100 ///< Discard frames marked corrupted //* 丢弃标记为损坏的帧。适用于需要丢弃损坏帧的场景。
+#define AVFMT_FLAG_FLUSH_PACKETS    0x0200 ///< Flush the AVIOContext every packet. //* 每次读取数据包后刷新 AVIOContext。适用于实时流处理。
 /**
  * When muxing, try to avoid writing any random/volatile data to the output.
  * This includes any random IDs, real-time timestamps/dates, muxer version, etc.
  *
  * This flag is mainly intended for testing.
  */
-#define AVFMT_FLAG_BITEXACT         0x0400
-#define AVFMT_FLAG_SORT_DTS    0x10000 ///< try to interleave outputted packets by dts (using this flag can slow demuxing down)
-#define AVFMT_FLAG_FAST_SEEK   0x80000 ///< Enable fast, but inaccurate seeks for some formats
+#define AVFMT_FLAG_BITEXACT         0x0400 //* 在复用（muxing）时，避免写入任何随机/易变数据（如随机 ID、实时时间戳、复用器版本等）。主要用于测试。
+#define AVFMT_FLAG_SORT_DTS    0x10000 ///< try to interleave outputted packets by dts (using this flag can slow demuxing down) //* 尝试按 DTS 交错输出数据包。适用于需要按 DTS 排序的场景，但可能会降低解复用速度。
+#define AVFMT_FLAG_FAST_SEEK   0x80000 ///< Enable fast, but inaccurate seeks for some formats //* 启用快速但不精确的跳转。适用于需要快速定位到指定时间点的场景。
 #if FF_API_LAVF_SHORTEST
-#define AVFMT_FLAG_SHORTEST   0x100000 ///< Stop muxing when the shortest stream stops.
+#define AVFMT_FLAG_SHORTEST   0x100000 ///< Stop muxing when the shortest stream stops. //* 当最短的流停止时，停止复用。适用于需要同步多个流的场景。
 #endif
-#define AVFMT_FLAG_AUTO_BSF   0x200000 ///< Add bitstream filters as requested by the muxer
+#define AVFMT_FLAG_AUTO_BSF   0x200000 ///< Add bitstream filters as requested by the muxer //* 根据复用器的请求自动添加比特流过滤器（Bitstream Filters）。适用于需要自动处理比特流的场景。
 
     /**
      * Maximum number of bytes read from input in order to determine stream
@@ -2365,7 +2368,7 @@ int av_seek_frame(AVFormatContext *s, int stream_index, int64_t timestamp,
                   int flags);
 
 /**
- * Seek to timestamp ts.
+ * Seek to timestamp ts. //* 用于将播放位置定位到指定时间戳
  * Seeking will be done so that the point from which all active streams
  * can be presented successfully will be closest to ts and within min/max_ts.
  * Active streams are all streams that have AVStream.discard < AVDISCARD_ALL.
@@ -2390,6 +2393,7 @@ int av_seek_frame(AVFormatContext *s, int stream_index, int64_t timestamp,
  *
  * @note This is part of the new seek API which is still under construction.
  */
+//* 用于将播放位置定位到指定时间戳
 int avformat_seek_file(AVFormatContext *s, int stream_index, int64_t min_ts, int64_t ts, int64_t max_ts, int flags);
 
 /**
@@ -3015,7 +3019,7 @@ AVRational av_guess_frame_rate(AVFormatContext *ctx, AVStream *stream,
 /**
  * Check if the stream st contained in s is matched by the stream specifier
  * spec.
- *
+ *  //* 检查流是否与描述符匹配
  * See the "stream specifiers" chapter in the documentation for the syntax
  * of spec.
  *

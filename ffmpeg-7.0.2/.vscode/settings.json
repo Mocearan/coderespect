@@ -1,6 +1,16 @@
 {
     "C_Cpp.errorSquiggles": "disabled",
     "files.associations": {
-        "config.h": "c"
+        "config.h": "c",
+        "cmdutils.h": "c",
+        "avcodec.h": "c",
+        "stdint.h": "c",
+        "ffplay_renderer.h": "c",
+        "bprint.h": "c",
+        "avstring.h": "c",
+        "frame.h": "c",
+        "signal.h": "c",
+        "typeinfo": "c",
+        "cmath": "c"
     }
 }

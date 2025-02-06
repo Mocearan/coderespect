@@ -30,6 +30,7 @@ VkRenderer *vk_get_renderer(void);
 int vk_renderer_create(VkRenderer *renderer, SDL_Window *window,
                        AVDictionary *opt);
 
+//* 用于从 Vulkan 渲染器中获取硬件设备上下文
 int vk_renderer_get_hw_dev(VkRenderer *renderer, AVBufferRef **dev);
 
 int vk_renderer_display(VkRenderer *renderer, AVFrame *frame);

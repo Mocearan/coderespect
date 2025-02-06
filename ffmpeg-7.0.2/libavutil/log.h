@@ -62,6 +62,12 @@ struct AVOptionRanges;
  * Describe the class of an AVClass context structure. That is an
  * arbitrary struct of which the first field is a pointer to an
  * AVClass struct (e.g. AVCodecContext, AVFormatContext etc.).
+ *
+ * //*AVClass 是 FFmpeg 中用于描述类（如编解码器、格式、过滤器等）的元数据结构。它包含以下信息：
+    类名：类的名称（如 AVCodecContext）。
+    选项列表：类的选项列表（AVOption），用于描述该类支持的选项（如线程数、日志级别等）。
+    父类：指向父类的指针（如果有）。
+    日志回调：日志回调函数，用于处理类的日志输出。
  */
 typedef struct AVClass {
     /**

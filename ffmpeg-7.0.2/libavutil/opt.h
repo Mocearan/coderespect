@@ -795,7 +795,19 @@ int av_opt_set_dict_val(void *obj, const char *name, const AVDictionary *val, in
 
 /**
  * Set a binary option to an integer list.
- *
+ * //* 用于设置滤镜的选项。
+ *  像素格式："pix_fmts"
+    颜色空间："color_spaces"
+    颜色范围："color_ranges"
+    采样格式："sample_fmts"
+    采样率："sample_rates"
+    声道布局："channel_layouts"
+    时间基："time_bases"
+    帧率："frame_rates"
+    线程数："threads"
+    标志："flags"
+    自定义选项：根据滤镜支持的自定义选项。
+
  * @param obj    AVClass object to set options on
  * @param name   name of the binary option
  * @param val    pointer to an integer list (must have the correct type with

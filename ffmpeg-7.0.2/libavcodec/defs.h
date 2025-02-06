@@ -211,12 +211,17 @@ enum AVDiscard{
     /* We leave some space between them for extensions (drop some
      * keyframes for intra-only or drop just some bidir frames). */
     AVDISCARD_NONE    =-16, ///< discard nothing
-    AVDISCARD_DEFAULT =  0, ///< discard useless packets like 0 size packets in avi
-    AVDISCARD_NONREF  =  8, ///< discard all non reference
-    AVDISCARD_BIDIR   = 16, ///< discard all bidirectional frames
-    AVDISCARD_NONINTRA= 24, ///< discard all non intra frames
-    AVDISCARD_NONKEY  = 32, ///< discard all frames except keyframes
-    AVDISCARD_ALL     = 48, ///< discard all
+    AVDISCARD_DEFAULT = 0, ///< discard useless packets like 0 size packets in avi  
+        //* 默认策略，不丢弃任何数据包。
+    AVDISCARD_NONREF = 8, ///< discard all non reference
+        //* 丢弃非参考帧。
+    AVDISCARD_BIDIR = 16, ///< discard all bidirectional frames
+        //* 丢弃双向预测帧。
+    AVDISCARD_NONINTRA = 24, ///< discard all non intra frames
+    AVDISCARD_NONKEY = 32, ///< discard all frames except keyframes
+        //* 丢弃非关键帧。
+    AVDISCARD_ALL = 48, ///< discard all
+        //* 丢弃所有数据包。
 };
 
 enum AVAudioServiceType {

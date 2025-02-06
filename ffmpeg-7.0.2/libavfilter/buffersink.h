@@ -80,6 +80,7 @@
  *
  * @return  >= 0 in for success, a negative AVERROR code for failure.
  */
+//* 从过滤器图的输出缓冲区中获取处理后的音频帧。
 int av_buffersink_get_frame_flags(AVFilterContext *ctx, AVFrame *frame, int flags);
 
 /**

@@ -340,39 +340,52 @@ void uninit_parse_context(OptionParseContext *octx);
 
 /**
  * Find the '-loglevel' option in the command line args and apply it.
+ * 从命令行参数中查找 -loglevel选项并应用
  */
 void parse_loglevel(int argc, char **argv, const OptionDef *options);
 
 /**
  * Return index of option opt in argv or 0 if not found.
+ * 返回选项在argv参数列表中的索引，没找到返回0
  */
 int locate_option(int argc, char **argv, const OptionDef *options,
                   const char *optname);
 
 /**
  * Check if the given stream matches a stream specifier.
- *
- * @param s  Corresponding format context.
- * @param st Stream from s to be checked.
- * @param spec A stream specifier of the [v|a|s|d]:[\<stream index\>] form.
- *
+ *    //* 检查给定的流（AVStream）是否与指定的流描述符（spec）匹配
+ * @param s  Corresponding format context.      //* 媒体文件的上下文信息。
+ * @param st Stream from s to be checked.       //* 媒体文件中的一个流（如视频流、音频流）
+ * @param spec A stream specifier of the [v|a|s|d]:[\<stream index\>] form. //* 流描述符（stream specifier），用于指定流的匹配规则。
+        *  //*解析 spec，提取流类型和索引信息。
+            //*    流类型可以是以下之一：
+            //*    v：视频流。
+            //*    a：音频流。
+            //*    s：字幕流。
+            //*    d：数据流。
  * @return 1 if the stream matches, 0 if it doesn't, <0 on error
  */
 int check_stream_specifier(AVFormatContext *s, AVStream *st, const char *spec);
 
 /**
  * Filter out options for given codec.
- *
+ *  从给定的选项字典 opts 中筛选出适用于特定编解码器的选项，并将这些选项存储到一个新的字典 dst 中。
  * Create a new options dictionary containing only the options from
  * opts which apply to the codec with ID codec_id.
  *
- * @param opts     dictionary to place options in
- * @param codec_id ID of the codec that should be filtered for
- * @param s Corresponding format context.
- * @param st A stream from s for which the options should be filtered.
- * @param codec The particular codec for which the options should be filtered.
- *              If null, the default one is looked up according to the codec id.
- * @param dst a pointer to the created dictionary
+ *在 FFmpeg 中，编解码器选项可能以不同的形式存在：
+        全局选项（适用于所有编解码器）。
+        特定编解码器的选项（如 -vcodec 或 -acodec 后的选项）。
+        特定流的选项（如 -map 后的选项）。
+    filter_codec_opts 函数用于从这些选项中提取出适用于特定编解码器的选项，以便在初始化编解码器时使用。
+ *
+ * @param opts     dictionary to place options in   输入的选项字典，包含所有可能的选项。这些选项可能是全局的，也可能是特定于某个编解码器的。
+ * @param codec_id ID of the codec that should be filtered for  标编解码器的 ID，用于筛选适用于该编解码器的选项。
+ * @param s Corresponding format context.媒体文件的上下文信息。提供全局的格式相关信息。
+ * @param st A stream from s for which the options should be filtered.  流（AVStream），表示媒体文件中的一个流（如视频流、音频流）。
+ * @param codec The particular codec for which the options should be filtered.      目标编解码器（AVCodec），表示具体的编解码器实例。
+ *              If null, the default one is looked up according to the codec id.    如果为 NULL，则根据 codec_id 查找默认的编解码器。
+ * @param dst a pointer to the created dictionary                                   输出的选项字典，存储筛选后的选项。调用者需要负责释放该字典。
  * @return a non-negative number on success, a negative error code on failure
  */
 int filter_codec_opts(const AVDictionary *opts, enum AVCodecID codec_id,
